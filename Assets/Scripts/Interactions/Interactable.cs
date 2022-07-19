@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ObjectTemplate : MonoBehaviour
+public class Interactable : MonoBehaviour
 {
     [SerializeField] private GameObject _portableObject;
 
