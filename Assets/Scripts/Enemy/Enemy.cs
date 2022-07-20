@@ -22,10 +22,8 @@ public class Enemy : MonoBehaviour
 
     private void Update()
     {
-        if (Vector3.Distance(_agent.transform.position, _player.position) > _seeDistance)
-            _agent.destination = _goals[_currentGoal].position;
-        else if (Vector3.Distance(_agent.transform.position, _player.position) <= _seeDistance)
-            _agent.destination = _player.position;
+
+        CheckPlayerDistance();
 
         if (_agent.remainingDistance < _distanceToChangeGoal)
         {
@@ -33,6 +31,20 @@ public class Enemy : MonoBehaviour
 
             if (_currentGoal == _goals.Length)
                 _currentGoal = 0;
+        }
+    }
+
+    private void CheckPlayerDistance()
+    {
+        if (Vector3.Distance(_agent.transform.position, _player.position) > _seeDistance)
+        {
+            _agent.speed = 4;
+            _agent.destination = _goals[_currentGoal].position;
+        }
+        else if (Vector3.Distance(_agent.transform.position, _player.position) <= _seeDistance)
+        {
+            _agent.speed = 6;
+            _agent.destination = _player.position;
         }
     }
 
