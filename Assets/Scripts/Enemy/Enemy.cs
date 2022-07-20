@@ -5,26 +5,40 @@ using UnityEngine.AI;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] private Transform[] _goals;
-    [SerializeField] private float distanceToChangeGoal;
+    [SerializeField] private float _distanceToChangeGoal;
+    [SerializeField] private Transform _player;
+    [SerializeField] private float _seeDistance;
+    [SerializeField] private LoseCanvas _loseCanvas;
 
     private NavMeshAgent _agent;
-    private int currentGoal = 0;
+    private int _currentGoal = 0;
 
-    void Start()
+    private void Start()
     {
         _agent = GetComponent<NavMeshAgent>();
+
         _agent.destination = _goals[0].position;
     }
 
-    void Update()
+    private void Update()
     {
-        if (_agent.remainingDistance < distanceToChangeGoal)
+        if (Vector3.Distance(_agent.transform.position, _player.position) > _seeDistance)
+            _agent.destination = _goals[_currentGoal].position;
+        else if (Vector3.Distance(_agent.transform.position, _player.position) <= _seeDistance)
+            _agent.destination = _player.position;
+
+        if (_agent.remainingDistance < _distanceToChangeGoal)
         {
-            currentGoal++;
+            _currentGoal++;
 
-            if (currentGoal == _goals.Length) currentGoal = 0;
-
-            _agent.destination = _goals[currentGoal].position;
+            if (_currentGoal == _goals.Length)
+                _currentGoal = 0;
         }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.TryGetComponent(out PlayerMovement player))
+            _loseCanvas.Show();
     }
 }
