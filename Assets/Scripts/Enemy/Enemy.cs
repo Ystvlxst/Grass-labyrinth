@@ -22,9 +22,12 @@ public class Enemy : MonoBehaviour
 
     private void Update()
     {
-
         CheckPlayerDistance();
+        CheckNextGoal();
+    }
 
+    private void CheckNextGoal()
+    {
         if (_agent.remainingDistance < _distanceToChangeGoal)
         {
             _currentGoal++;
@@ -37,20 +40,19 @@ public class Enemy : MonoBehaviour
     private void CheckPlayerDistance()
     {
         if (Vector3.Distance(_agent.transform.position, _player.position) > _seeDistance)
-        {
-            _agent.speed = 4;
             _agent.destination = _goals[_currentGoal].position;
-        }
         else if (Vector3.Distance(_agent.transform.position, _player.position) <= _seeDistance)
-        {
-            _agent.speed = 6;
             _agent.destination = _player.position;
-        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.TryGetComponent(out PlayerMovement player))
+        if (other.TryGetComponent(out PlayerMovement player))
             _loseCanvas.Show();
+    }
+
+    public void SpeedMovement(int speed)
+    {
+        _agent.speed = speed;
     }
 }

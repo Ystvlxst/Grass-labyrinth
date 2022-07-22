@@ -142,5 +142,5 @@ MonoBehaviour:
   - {fileID: 0}
   _distanceToChangeGoal: 1
   _player: {fileID: 0}
-  _seeDistance: 15
+  _seeDistance: 10
   _loseCanvas: {fileID: 0}
