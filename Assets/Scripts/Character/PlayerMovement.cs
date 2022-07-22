@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private FloatingJoystick _joystick;
     [SerializeField] private float _speed = 10;
+    [SerializeField] private Animator _animator;
 
     private NavMeshAgent _agent;
     private float _speedRate;
@@ -33,7 +34,14 @@ public class PlayerMovement : MonoBehaviour
         _agent.speed = _speed * _speedRate * shift.magnitude;
 
         if (shift.magnitude > 0)
+        {
+            _animator.SetFloat("Speed", 1);
             PositionUpdated?.Invoke();
+        }
+        else
+        {
+            _animator.SetFloat("Speed", 0);
+        }
     }
 
     public void ChangeSpeed(float speedFactor, float duration)
