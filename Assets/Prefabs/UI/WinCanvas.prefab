@@ -452,9 +452,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _canvas: {fileID: 1990302402498608700}
   _nextLevel: {fileID: 1990302400784245067}
-  _snapshot: {fileID: 7949661993876949858}
   _animator: {fileID: 1892345386165701766}
-  _snapshotProvider: {fileID: 0}
 --- !u!114 &5972646972424335865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -839,9 +837,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Accuracy
-
-    99.99%'
+  m_text: Princess released
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8d34560b6d49c4469b2174ccd34ae34b, type: 2}
   m_sharedMaterial: {fileID: 8690591861142563998, guid: 8d34560b6d49c4469b2174ccd34ae34b, type: 2}

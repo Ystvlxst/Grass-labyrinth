@@ -434,18 +434,6 @@ PrefabInstance:
       propertyPath: _levelProgress
       value: 
       objectReference: {fileID: 1465737612}
-    - target: {fileID: 3307867291628717316, guid: 9aa1312998f77e043ace8038826e03bb, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 3307867291628717316, guid: 9aa1312998f77e043ace8038826e03bb, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.93
-      objectReference: {fileID: 0}
-    - target: {fileID: 3307867291628717316, guid: 9aa1312998f77e043ace8038826e03bb, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.37
-      objectReference: {fileID: 0}
     - target: {fileID: 3876192779385854070, guid: 9aa1312998f77e043ace8038826e03bb, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -3869,9 +3857,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: WinCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 3223447218685116577, guid: 42b086877450748079657b80dd4139c2, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1080
+      objectReference: {fileID: 0}
+    - target: {fileID: 3223447218685116577, guid: 42b086877450748079657b80dd4139c2, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 241.9668
+      objectReference: {fileID: 0}
+    - target: {fileID: 3223447218685116577, guid: 42b086877450748079657b80dd4139c2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.000062943
+      objectReference: {fileID: 0}
+    - target: {fileID: 3223447218685116577, guid: 42b086877450748079657b80dd4139c2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -636
+      objectReference: {fileID: 0}
     - target: {fileID: 3976458783320565986, guid: 42b086877450748079657b80dd4139c2, type: 3}
       propertyPath: _snapshotProvider
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5000089359518314619, guid: 42b086877450748079657b80dd4139c2, type: 3}
+      propertyPath: m_Name
+      value: Text
+      objectReference: {fileID: 0}
+    - target: {fileID: 5000089359518314619, guid: 42b086877450748079657b80dd4139c2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5972646972424335865, guid: 42b086877450748079657b80dd4139c2, type: 3}
       propertyPath: m_Enabled
