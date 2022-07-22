@@ -5768,39 +5768,39 @@ PrefabInstance:
     - target: {fileID: 1344196648681401317, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
       propertyPath: _goals.Array.data[0]
       value: 
-      objectReference: {fileID: 429200265}
+      objectReference: {fileID: 263923009}
     - target: {fileID: 1344196648681401317, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
       propertyPath: _goals.Array.data[1]
       value: 
-      objectReference: {fileID: 1768002538}
+      objectReference: {fileID: 455647054}
     - target: {fileID: 1344196648681401317, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
       propertyPath: _goals.Array.data[2]
       value: 
-      objectReference: {fileID: 394404442}
+      objectReference: {fileID: 1525708675}
     - target: {fileID: 1344196648681401317, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
       propertyPath: _goals.Array.data[3]
       value: 
-      objectReference: {fileID: 263923009}
+      objectReference: {fileID: 429200265}
     - target: {fileID: 1344196648681401317, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
       propertyPath: _goals.Array.data[4]
       value: 
-      objectReference: {fileID: 1525708675}
+      objectReference: {fileID: 24786920}
     - target: {fileID: 1344196648681401317, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
       propertyPath: _goals.Array.data[5]
       value: 
-      objectReference: {fileID: 24786920}
+      objectReference: {fileID: 1768002538}
     - target: {fileID: 1344196648681401317, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
       propertyPath: _goals.Array.data[6]
       value: 
-      objectReference: {fileID: 1351128720}
+      objectReference: {fileID: 643884646}
     - target: {fileID: 1344196648681401317, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
       propertyPath: _goals.Array.data[7]
       value: 
-      objectReference: {fileID: 455647054}
+      objectReference: {fileID: 1351128720}
     - target: {fileID: 1344196648681401317, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
       propertyPath: _goals.Array.data[8]
       value: 
-      objectReference: {fileID: 643884646}
+      objectReference: {fileID: 394404442}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
 --- !u!4 &1564002692 stripped
