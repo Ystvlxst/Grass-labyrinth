@@ -1,34 +1,44 @@
 using UnityEngine;
 
-[RequireComponent(typeof(Transform))]
 public class PlayerViewZone : MonoBehaviour
 {
     [SerializeField] private float _viewDistance = 10f;
     [SerializeField] private Enemy[] _enemyes;
 
-    private Transform _player;
     private RaycastHit _hit;
-
-    private void Start()
-    {
-        _player = GetComponent<Transform>();
-    }
+    private Ray _ray;
 
     private void Update()
     {
+        foreach (var enemy in _enemyes)
+            _ray = new Ray(transform.position, enemy.transform.position - transform.position);
+        Physics.Raycast(_ray, out _hit);
+
         CheckEnemyInView();
+
+        Debug.DrawLine(_ray.origin, _hit.point, Color.red);
     }
 
     private void CheckEnemyInView()
     {
-        foreach(var enemy in _enemyes)
+        if(_hit.collider != null)
         {
-            if (Physics.Raycast(_player.transform.position, enemy.gameObject.transform.position - _player.position, out _hit, _viewDistance))
+            foreach (var enemy in _enemyes)
             {
-                if (Vector3.Distance(_player.position, enemy.gameObject.transform.position) <= _viewDistance && _hit.transform == enemy.transform)
-                    enemy.SpeedMovement(0);
+                if(_hit.collider.gameObject == enemy.gameObject && Vector3.Distance(transform.position, enemy.transform.position) <= _viewDistance)
+                {
+                    Debug.Log("Попал во врага");
+
+                    if (enemy.DetectedPlayer())
+                        enemy.SpeedMovement(0);
+                }
                 else
-                    enemy.SpeedMovement(4);
+                {
+                    Debug.Log("Путь к врагу преграждает объект или он слишком далеко");
+
+                    if (enemy.DetectedPlayer() == false)
+                        enemy.SpeedMovement(4);
+                }
             }
         }
     }

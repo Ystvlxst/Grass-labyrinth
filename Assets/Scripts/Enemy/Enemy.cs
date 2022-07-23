@@ -12,7 +12,6 @@ public class Enemy : MonoBehaviour
 
     private NavMeshAgent _agent;
     private int _currentGoal = 0;
-    private RaycastHit _hit;
 
     private void Start()
     {
