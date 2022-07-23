@@ -36,15 +36,18 @@ public class PlayerViewZone : MonoBehaviour
                 if(_realAngle < _viewAngle && Vector3.Distance(transform.position, enemy.transform.position) <= _viewDistance && _hit.collider.gameObject == enemy.gameObject)
                 {
                     if (enemy.DetectedPlayer())
+                    {
                         enemy.SpeedMovement(0);
-                    Debug.Log("Попал во врага");
+                        Debug.Log("Попал во врага");
+                    }
                 }
                 else
                 {
-                    Debug.Log("Путь к врагу преграждает объект или он слишком далеко");
-
                     if (enemy.DetectedPlayer() == false)
+                    {
                         enemy.SpeedMovement(4);
+                        Debug.Log("Путь к врагу преграждает объект или он слишком далеко");
+                    }
                 }
             }
         }
