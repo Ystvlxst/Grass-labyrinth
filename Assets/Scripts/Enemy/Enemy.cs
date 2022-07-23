@@ -12,6 +12,7 @@ public class Enemy : MonoBehaviour
 
     private NavMeshAgent _agent;
     private int _currentGoal = 0;
+    private RaycastHit _hit;
 
     private void Start()
     {
@@ -39,16 +40,23 @@ public class Enemy : MonoBehaviour
 
     private void CheckPlayerDistance()
     {
-        if (Vector3.Distance(_agent.transform.position, _player.position) > _seeDistance)
+        if (DetectedPlayer() == false)
             _agent.destination = _goals[_currentGoal].position;
-        else if (Vector3.Distance(_agent.transform.position, _player.position) <= _seeDistance)
-            _agent.destination = _player.position;
+        else if (DetectedPlayer())
+            _agent.SetDestination(_player.position);
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.TryGetComponent(out PlayerMovement player))
             _loseCanvas.Show();
+    }
+
+    public bool DetectedPlayer()
+    {
+        if (Vector3.Distance(_agent.transform.position, _player.position) <= _seeDistance)
+            return true;
+        return false;
     }
 
     public void SpeedMovement(int speed)
