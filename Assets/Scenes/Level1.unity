@@ -9135,7 +9135,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 12, y: 13, z: 12, w: 19}
+  m_BoundingSphereOverride: {x: 1.3563156e-19, y: 6.882203e+11, z: 6.7406024e+22, w: 4.123458e+30}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -9320,7 +9320,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 6.22e-43, y: 3.5e-44, z: 1.5414285e+25, w: 0}
+  m_BoundingSphereOverride: {x: 1.3555912e-19, y: 1.3563156e-19, z: 1.3563156e-19, w: 3.0439522e+32}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -12733,6 +12733,10 @@ PrefabInstance:
     - target: {fileID: 1344196648681401319, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
       propertyPath: m_Size.z
       value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1344196648681401319, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1344196648681401319, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
       propertyPath: m_Center.y
