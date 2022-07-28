@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 1344196648681401319}
   - component: {fileID: 1344196648681401318}
   - component: {fileID: 1344196648681401317}
+  - component: {fileID: 8824544477151393220}
+  - component: {fileID: 5923823537865204865}
   m_Layer: 11
   m_Name: Enemy
   m_TagString: Untagged
@@ -131,16 +133,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e574b68eb4a941bb90758e7bcc828e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _goals:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  _loseCanvas: {fileID: 0}
+--- !u!114 &8824544477151393220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344196648681401315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25437e90a7f844518e3b719ff8a5802d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enemyMovement: {fileID: 5923823537865204865}
+--- !u!114 &5923823537865204865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344196648681401315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60bbba6fc2a0472cb6e49d4bb007ff94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _goals: []
   _distanceToChangeGoal: 1
   _player: {fileID: 0}
   _seeDistance: 15
-  _loseCanvas: {fileID: 0}

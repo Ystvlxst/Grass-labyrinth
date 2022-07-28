@@ -17,10 +17,10 @@ public class EnemyFreezer : MonoBehaviour
     {
         while (true)
         {
+            if (_fieldOfVision.TryFindVisibleTarget(out EnemyFreeze enemyFreeze))
+                enemyFreeze.Freeze(_freezeDuration);
+            
             yield return new WaitForSeconds(_delayBetweenFreeze);
-
-            if (_fieldOfVision.TryFindVisibleTarget(out Enemy enemy))
-                enemy.Freeze(_freezeDuration);
         }
     }
 }
