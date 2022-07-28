@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -12,11 +13,13 @@ public class Enemy : MonoBehaviour
 
     private NavMeshAgent _agent;
     private int _currentGoal = 0;
+    private Coroutine _unfreeze;
+    private float _speed;
 
     private void Start()
     {
         _agent = GetComponent<NavMeshAgent>();
-
+        _speed = _agent.speed;
         _agent.destination = _goals[0].position;
     }
 
@@ -24,6 +27,22 @@ public class Enemy : MonoBehaviour
     {
         CheckPlayerDistance();
         CheckNextGoal();
+    }
+
+    public void Freeze(float freezeDuration)
+    {
+        SetSpeed(0);
+        
+        if(_unfreeze != null)
+            StopCoroutine(_unfreeze);
+        
+        _unfreeze = StartCoroutine(Unfreeze(freezeDuration));
+    }
+
+    private IEnumerator Unfreeze(float freezeDuration)
+    {
+        yield return new WaitForSeconds(freezeDuration);
+        SetSpeed(_speed);
     }
 
     private void CheckNextGoal()
@@ -41,7 +60,7 @@ public class Enemy : MonoBehaviour
     {
         if (DetectedPlayer() == false)
             _agent.destination = _goals[_currentGoal].position;
-        else if (DetectedPlayer())
+        else
             _agent.SetDestination(_player.position);
     }
 
@@ -51,14 +70,12 @@ public class Enemy : MonoBehaviour
             _loseCanvas.Show();
     }
 
-    public bool DetectedPlayer()
+    private bool DetectedPlayer()
     {
-        if (Vector3.Distance(_agent.transform.position, _player.position) <= _seeDistance)
-            return true;
-        return false;
+        return Vector3.Distance(_agent.transform.position, _player.position) <= _seeDistance;
     }
 
-    public void SpeedMovement(int speed)
+    private void SetSpeed(float speed)
     {
         _agent.speed = speed;
     }
