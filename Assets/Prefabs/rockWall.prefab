@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 681976407066124598}
   - component: {fileID: 3355791557185721852}
   - component: {fileID: 3071603344206468261}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: rockWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
