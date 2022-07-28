@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9d0c0cce-cc1d-4558-947f-7d5d17260c84" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="915a279ea140810942d7a62733eef36320f6fde0" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Work/Projects/git/Grass-labirint/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.7.0/Runtime/Data/PostProcessData.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../GrassCutter/Assets/Scripts/Picture/EndLevelTrigger.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.7.0/Runtime/Deprecated.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/DecompilerCache/decompiler/07c89f7520694139991332d3cf930d4813bc00/c4/175f7bc8/RenderTargetIdentifier.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Work/Projects/git/Grass-labirint/ProjectSettings/QualitySettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Work/Projects/git/Grass-labirint/ProjectSettings/ProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../GrassCutter/Assets/FacebookSDK/Examples/Windows/FBWindowsPhysicalGamepadManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.7.0/Runtime/UniversalAdditionalCameraData.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Work/Projects/git/Grass-labirint/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../GrassCutter/Assets/Scripts/UI/Canvas/WinCanvas.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Work/Projects/git/Grass-labirint/ProjectSettings/QualitySettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/DecompilerCache/decompiler/07c89f7520694139991332d3cf930d4813bc00/1d/7ace48c0/SortingCriteria.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/DecompilerCache/decompiler/07c89f7520694139991332d3cf930d4813bc00/32/130bb5e6/ScriptableRenderContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Work/Projects/git/Grass-labirint/ProjectSettings/QualitySettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.7.0/Runtime/Passes/ScriptableRenderPass.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Work/Projects/git/Grass-labirint/ProjectSettings/QualitySettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../GrassCutter/Assets/Scripts/Character/PlayerAccuracyView.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Work/Projects/git/Grass-labirint/ProjectSettings/ProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="2Ca6b0HVa6HuTof3bnvczUDSWKJ" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d0c0cce-cc1d-4558-947f-7d5d17260c84" name="Changes" comment="" />
+      <created>1659028417871</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659028417871</updated>
+      <workItem from="1659028419426" duration="361000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
