@@ -5521,6 +5521,10 @@ PrefabInstance:
       propertyPath: _loseCanvas
       value: 
       objectReference: {fileID: 102583980}
+    - target: {fileID: 3656860104065809454, guid: 36324c335dacc714aa8b54d03e4c6840, type: 3}
+      propertyPath: <Player>k__BackingField
+      value: 
+      objectReference: {fileID: 1129369}
     - target: {fileID: 3656860104250112684, guid: 36324c335dacc714aa8b54d03e4c6840, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -6645,6 +6649,10 @@ PrefabInstance:
       propertyPath: _loseCanvas
       value: 
       objectReference: {fileID: 102583980}
+    - target: {fileID: 3656860104065809454, guid: 36324c335dacc714aa8b54d03e4c6840, type: 3}
+      propertyPath: <Player>k__BackingField
+      value: 
+      objectReference: {fileID: 1129369}
     - target: {fileID: 3656860104250112684, guid: 36324c335dacc714aa8b54d03e4c6840, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -7213,6 +7221,10 @@ PrefabInstance:
       propertyPath: _loseCanvas
       value: 
       objectReference: {fileID: 102583980}
+    - target: {fileID: 3656860104065809454, guid: 36324c335dacc714aa8b54d03e4c6840, type: 3}
+      propertyPath: <Player>k__BackingField
+      value: 
+      objectReference: {fileID: 1129369}
     - target: {fileID: 3656860104250112684, guid: 36324c335dacc714aa8b54d03e4c6840, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -18215,12 +18227,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3656860103096457445, guid: 36324c335dacc714aa8b54d03e4c6840, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 25.64
+      value: 29.33
       objectReference: {fileID: 0}
     - target: {fileID: 3656860104065809454, guid: 36324c335dacc714aa8b54d03e4c6840, type: 3}
       propertyPath: _loseCanvas
       value: 
       objectReference: {fileID: 102583980}
+    - target: {fileID: 3656860104065809454, guid: 36324c335dacc714aa8b54d03e4c6840, type: 3}
+      propertyPath: <Player>k__BackingField
+      value: 
+      objectReference: {fileID: 1129369}
     - target: {fileID: 3656860104250112684, guid: 36324c335dacc714aa8b54d03e4c6840, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -18235,7 +18251,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3656860104250112684, guid: 36324c335dacc714aa8b54d03e4c6840, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -22.08
+      value: -23.23
       objectReference: {fileID: 0}
     - target: {fileID: 3656860104250112684, guid: 36324c335dacc714aa8b54d03e4c6840, type: 3}
       propertyPath: m_LocalRotation.w
