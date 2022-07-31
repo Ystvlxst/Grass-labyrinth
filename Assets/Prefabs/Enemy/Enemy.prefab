@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _goals: []
-  _distanceToChangeGoal: 1
+  _distanceToChangeGoal: 2
   _player: {fileID: 0}
   _seeDistance: 15
 --- !u!114 &487823476962851272

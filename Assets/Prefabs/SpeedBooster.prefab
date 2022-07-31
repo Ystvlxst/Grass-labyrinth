@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1784286651}
   - component: {fileID: 1784286652}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spot Light_Speed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 8563928933147473637}
   - component: {fileID: 8563928933147473640}
   - component: {fileID: 8563928933147473636}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpeedBooster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -389,9 +389,21 @@ PrefabInstance:
       propertyPath: ColorModule.gradient.maxGradient.m_NumColorKeys
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 7481742128565733426, guid: 0c4900cbf5dd07943aca195c65486621, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7536577812424104645, guid: 0c4900cbf5dd07943aca195c65486621, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7891003704555204809, guid: 0c4900cbf5dd07943aca195c65486621, type: 3}
       propertyPath: m_Name
       value: SpeedBooster_Glow
+      objectReference: {fileID: 0}
+    - target: {fileID: 7891003704555204809, guid: 0c4900cbf5dd07943aca195c65486621, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8403650740047732209, guid: 0c4900cbf5dd07943aca195c65486621, type: 3}
       propertyPath: m_Color.b
