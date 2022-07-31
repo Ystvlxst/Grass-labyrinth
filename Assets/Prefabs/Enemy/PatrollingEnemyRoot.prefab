@@ -223,6 +223,10 @@ PrefabInstance:
       propertyPath: _goals.Array.data[8]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4288393192808708508, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8202812341660054890, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
       propertyPath: _path
       value: 
