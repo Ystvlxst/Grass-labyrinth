@@ -5,7 +5,6 @@ using UnityEngine.AI;
 public class PlayerFindKeyState : State
 {
     [SerializeField] private PlayerMovement _player;
-    [SerializeField] private DistanceToKeySignalTransition _distanceToKeySignalTransition;
 
     private NavMeshAgent _agent;
 
@@ -16,8 +15,7 @@ public class PlayerFindKeyState : State
 
     private void Update()
     {
-        if(_distanceToKeySignalTransition.NeedTransit == true)
-            _agent.SetDestination(_player.transform.position);
+        _agent.SetDestination(_player.transform.position);
     }
 
     private void OnDisable()

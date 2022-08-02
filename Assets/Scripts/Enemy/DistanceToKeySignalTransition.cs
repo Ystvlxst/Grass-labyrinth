@@ -6,12 +6,11 @@ public class DistanceToKeySignalTransition : Transition
 
     private void Update()
     {
-        CheckKeyActive();
+        NeedTransit = CheckKeyActive();
     }
 
-    private void CheckKeyActive()
+    private bool CheckKeyActive()
     {
-        if (_key.activeSelf == false)
-            NeedTransit = true;
+        return _key.activeSelf == false;
     }
 }

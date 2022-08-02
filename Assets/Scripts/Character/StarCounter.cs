@@ -1,11 +1,12 @@
+using System;
 using UnityEngine;
 
 public class StarCounter : MonoBehaviour
 {
-    [SerializeField] private DistanceToKeySignalTransition[] _enemyes;
-
     private int _requireStarsCount;
     private int _currentStarsCount;
+
+    public event Action CountChanged;
 
     public int CurrentStarsCount => _currentStarsCount;
     public int RequireStarsCount => _requireStarsCount;
@@ -14,24 +15,13 @@ public class StarCounter : MonoBehaviour
     {
         _requireStarsCount = 3;
         _currentStarsCount = 0;
-    }
 
-    private void Update()
-    {
-        CheckStarsCount();
+        CountChanged?.Invoke();
     }
 
     public void FindStar()
     {
         _currentStarsCount++;
-    }
-
-    private void CheckStarsCount()
-    {
-        if(_currentStarsCount == _requireStarsCount)
-        {
-            foreach(var enemy in _enemyes)
-                enemy.enabled = false;
-        }
+        CountChanged?.Invoke();
     }
 }
