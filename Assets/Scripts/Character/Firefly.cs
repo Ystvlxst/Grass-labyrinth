@@ -28,6 +28,6 @@ public class Firefly : MonoBehaviour
         if (Vector3.Distance(_agent.transform.position, _player.transform.position) <= _distance)
             _agent.speed = 0;
         else
-            _agent.speed = _player.Agent.speed;
+            _agent.speed = 7;
     }
 }
