@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d0c0cce-cc1d-4558-947f-7d5d17260c84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyEyesColorStates.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyEyesColorStates.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/FreezeTransition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/FreezeTransition.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Grass-labirint/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Grass-labirint/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Boost_Cut.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Boost_Cut.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Boost_Speed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Boost_Speed.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Boost_UP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Boost_UP.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Firefly.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Firefly.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/GrassFigure/Level1/GrassMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/GrassFigure/Level1/GrassMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/GrassFigure/Level1/TextureGround.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/GrassFigure/Level1/TextureGround.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Head.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Head.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Head_Eye.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Head_Eye.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Head_Eye_Glow.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Head_Eye_Glow.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Enemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/PatrollingEnemyRoot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/PatrollingEnemyRoot.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/EnemyFreezer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character/EnemyFreezer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyFreeze.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyFreezeState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyFreeze.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyFreezeState.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/FrozeTransition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/FrozeTransition.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/State.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/State.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/URPMobileGrassInstancedIndirectDemo/InstancedIndirectGrass/Core/InstancedIndirectGrass.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/URPMobileGrassInstancedIndirectDemo/InstancedIndirectGrass/Core/InstancedIndirectGrass.shader" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,17 +27,19 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/DecompilerCache/decompiler/07c89f7520694139991332d3cf930d4813bc00/1d/7ace48c0/SortingCriteria.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.7.0/Runtime/Data/PostProcessData.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/DecompilerCache/decompiler/07c89f7520694139991332d3cf930d4813bc00/32/130bb5e6/ScriptableRenderContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Work/Projects/git/Grass-labirint/Assets/URPMobileGrassInstancedIndirectDemo/InstancedIndirectGrass/Core/InstancedIndirectGrass.shader" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../GrassCutter/Assets/Scripts/Picture/EndLevelTrigger.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.7.0/Runtime/Passes/ScriptableRenderPass.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.7.0/Runtime/Deprecated.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/DecompilerCache/decompiler/07c89f7520694139991332d3cf930d4813bc00/c4/175f7bc8/RenderTargetIdentifier.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../GrassCutter/Assets/Scripts/Character/PlayerAccuracyView.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../GrassCutter/Assets/FacebookSDK/Examples/Windows/FBWindowsPhysicalGamepadManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.7.0/Runtime/UniversalAdditionalCameraData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../GrassCutter/Assets/Scripts/UI/Canvas/WinCanvas.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/DecompilerCache/decompiler/07c89f7520694139991332d3cf930d4813bc00/1d/7ace48c0/SortingCriteria.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Work/Projects/git/Grass-labirint/Assets/URPMobileGrassInstancedIndirectDemo/InstancedIndirectGrass/Core/InstancedIndirectGrass.shader" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/DecompilerCache/decompiler/07c89f7520694139991332d3cf930d4813bc00/32/130bb5e6/ScriptableRenderContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.7.0/Runtime/Passes/ScriptableRenderPass.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../GrassCutter/Assets/Scripts/Character/PlayerAccuracyView.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2Ca6b0HVa6HuTof3bnvczUDSWKJ" />
   <component name="ProjectViewState">
@@ -109,7 +88,7 @@
       <workItem from="1659028419426" duration="361000" />
       <workItem from="1659253487213" duration="5631000" />
       <workItem from="1659338522072" duration="676000" />
-      <workItem from="1659428900822" duration="5630000" />
+      <workItem from="1659428900822" duration="7035000" />
     </task>
     <servers />
   </component>

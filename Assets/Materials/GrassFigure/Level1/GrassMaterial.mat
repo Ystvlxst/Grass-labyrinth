@@ -21,7 +21,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseColorTexture:
-        m_Texture: {fileID: 2800000, guid: 22edac847cc514345bc9d89a8db79426, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -71,7 +71,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _GrassHeight: 5
+    - _GrassHeight: 1.03
     - _GrassWidth: 0.2
     - _Metallic: 0
     - _OcclusionStrength: 1
@@ -83,6 +83,8 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _SteppedGrassHeight: 0.05
+    - _SteppedWind: 0
     - _Surface: 0
     - _WindAFrequency: 1
     - _WindAIntensity: 0.1
@@ -95,15 +97,16 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0, g: 0.24528301, b: 0.014042691, a: 1}
+    - _BaseColor: {r: 0, g: 1, b: 0.0666666, a: 1}
     - _BoundSize: {r: 50, g: 37.61, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EffectorPosWS: {r: 0, g: 0.5, b: -52.16, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GroundColor: {r: 1, g: 1, b: 1, a: 1}
+    - _GroundColor: {r: 0, g: 0.5754717, b: 0.03883549, a: 1}
     - _LossyBoundSize: {r: 50, g: 37.61, b: 0, a: 0}
     - _PivotPosWS: {r: 0, g: 0, b: -0.8911, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _SteppedColor: {r: 0.8773585, g: 0.8773585, b: 0.8773585, a: 1}
     - _WindADirection: {r: 0.1, g: 0.1, b: 0, a: 1}
     - _WindATiling: {r: 0.1, g: 0.1, b: 0, a: 1}
     - _WindAWrap: {r: 0.5, g: 0.5, b: 0, a: 1}
