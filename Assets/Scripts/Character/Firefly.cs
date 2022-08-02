@@ -24,10 +24,24 @@ public class Firefly : MonoBehaviour
     private void FollowPlayer()
     {
         _agent.destination = _player.transform.position;
+        SetSpeed();
+    }
 
+    private void SetSpeed()
+    {
         if (Vector3.Distance(_agent.transform.position, _player.transform.position) <= _distance)
             _agent.speed = 0;
         else
-            _agent.speed = 7;
+        {
+            if (_player.Agent.speed == 0)
+            {
+                _agent.SetDestination(_player.transform.position);
+
+                if (_agent.remainingDistance == _distance)
+                    _agent.speed = 0;
+            }
+            else
+                _agent.speed = _player.Agent.speed;
+        }
     }
 }

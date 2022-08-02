@@ -1118,6 +1118,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 19857362, guid: a88a4088f30993d4aa056af36449cbd2, type: 3}
+      propertyPath: prewarm
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19857362, guid: a88a4088f30993d4aa056af36449cbd2, type: 3}
       propertyPath: playOnAwake
       value: 0
       objectReference: {fileID: 0}
@@ -1151,7 +1155,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 19857362, guid: a88a4088f30993d4aa056af36449cbd2, type: 3}
       propertyPath: InitialModule.startSize.scalar
-      value: 1.51
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 19857362, guid: a88a4088f30993d4aa056af36449cbd2, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
@@ -1172,10 +1176,6 @@ PrefabInstance:
     - target: {fileID: 19857362, guid: a88a4088f30993d4aa056af36449cbd2, type: 3}
       propertyPath: InitialModule.startColor.maxColor.r
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 19893206, guid: a88a4088f30993d4aa056af36449cbd2, type: 3}
-      propertyPath: playOnAwake
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 19893206, guid: a88a4088f30993d4aa056af36449cbd2, type: 3}
       propertyPath: ColorModule.gradient.maxGradient.key0.b
@@ -4194,6 +4194,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 444401063}
     m_Modifications:
+    - target: {fileID: 7094754926289194870, guid: e963d304404704bf5bf43b7be597670c, type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 7e-45
+      objectReference: {fileID: 0}
+    - target: {fileID: 7094754926289194870, guid: e963d304404704bf5bf43b7be597670c, type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 2.8421896e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7094754926289194870, guid: e963d304404704bf5bf43b7be597670c, type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 2.864341e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7094754926289194870, guid: e963d304404704bf5bf43b7be597670c, type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 2.864341e-14
+      objectReference: {fileID: 0}
     - target: {fileID: 8563928933147473638, guid: e963d304404704bf5bf43b7be597670c, type: 3}
       propertyPath: m_Name
       value: SpeedBooster (1)
@@ -13805,6 +13821,18 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1965290941, guid: de812ff10c44449229014329e9747de0, type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 1.05e-43
+      objectReference: {fileID: 0}
+    - target: {fileID: 1965290941, guid: de812ff10c44449229014329e9747de0, type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1965290941, guid: de812ff10c44449229014329e9747de0, type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 1.05e-43
+      objectReference: {fileID: 0}
     - target: {fileID: 1005445266171461379, guid: de812ff10c44449229014329e9747de0, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -17921,7 +17949,7 @@ Light:
   m_BounceIntensity: 10
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 7.89e-43, y: 7.83e-43, z: 7.78e-43, w: 8.23e-43}
+  m_BoundingSphereOverride: {x: 0, y: NaN, z: 0, w: 8e-44}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -18786,6 +18814,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 444401063}
     m_Modifications:
+    - target: {fileID: 1965290941, guid: de812ff10c44449229014329e9747de0, type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 1.5e-44
+      objectReference: {fileID: 0}
+    - target: {fileID: 1965290941, guid: de812ff10c44449229014329e9747de0, type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 4.757186e+30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1965290941, guid: de812ff10c44449229014329e9747de0, type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 4.883925e-39
+      objectReference: {fileID: 0}
+    - target: {fileID: 1965290941, guid: de812ff10c44449229014329e9747de0, type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 4.516608e-39
+      objectReference: {fileID: 0}
     - target: {fileID: 3747800408118604400, guid: de812ff10c44449229014329e9747de0, type: 3}
       propertyPath: m_Name
       value: GrassCutterBooster
@@ -19577,6 +19621,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 444401063}
     m_Modifications:
+    - target: {fileID: 7094754926289194870, guid: e963d304404704bf5bf43b7be597670c, type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 4.0968288e-11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7094754926289194870, guid: e963d304404704bf5bf43b7be597670c, type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 1.13686147e-13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7094754926289194870, guid: e963d304404704bf5bf43b7be597670c, type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8563928933147473638, guid: e963d304404704bf5bf43b7be597670c, type: 3}
       propertyPath: m_Name
       value: SpeedBooster
