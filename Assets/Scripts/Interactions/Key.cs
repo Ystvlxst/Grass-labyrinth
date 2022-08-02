@@ -4,7 +4,7 @@ public class Key : MonoBehaviour
 {
     [SerializeField] private GameObject _portableObject;
     [SerializeField] private ParticleSystem _findKeyEffect;
-    [SerializeField] private StarsSignalisation _starCounter;
+    [SerializeField] private StarsSignalisation _signalisation;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -17,6 +17,6 @@ public class Key : MonoBehaviour
         _portableObject.gameObject.SetActive(true);
         gameObject.SetActive(false);
         _findKeyEffect.Play();
-        _starCounter.AllStarsFound();
+        _signalisation.TookKey();
     }
 }

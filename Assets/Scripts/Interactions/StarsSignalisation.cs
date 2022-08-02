@@ -5,7 +5,7 @@ public class StarsSignalisation : MonoBehaviour
     [SerializeField] private StarCounter _starCounter;
     [SerializeField] private FoundKeyTransition[] _foundKeyTransitions;
 
-    public void AllStarsFound()
+    public void TookKey()
     {
         if (_starCounter.CurrentStarsCount == _starCounter.RequireStarsCount)
         {
