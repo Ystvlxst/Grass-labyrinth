@@ -5,6 +5,7 @@ public class Star : MonoBehaviour
 {
     [SerializeField] private Animator _animator;
     [SerializeField] private StarCounter _starsCounter;
+    [SerializeField] private ParticleSystem _poofEffect;
 
     private const string _interaction = "Interaction";
 
@@ -14,6 +15,7 @@ public class Star : MonoBehaviour
         {
             StartCoroutine(Interact());
             _starsCounter.FindStar();
+            _poofEffect.Play();
         }
     }
 

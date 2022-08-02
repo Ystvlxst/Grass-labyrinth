@@ -8,6 +8,6 @@ public class StarCountText : MonoBehaviour
 
     private void Update()
     {
-        _text.text = _starCounter.CurrentStarsCount.ToString() + "/3";
+        _text.text = _starCounter.CurrentStarsCount.ToString() + "/" + _starCounter.RequireStarsCount;
     }
 }

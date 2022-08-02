@@ -8,6 +8,7 @@ public class StarCounter : MonoBehaviour
     private int _currentStarsCount;
 
     public int CurrentStarsCount => _currentStarsCount;
+    public int RequireStarsCount => _requireStarsCount;
 
     private void Start()
     {

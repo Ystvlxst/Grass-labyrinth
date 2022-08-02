@@ -96,6 +96,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10e6622e481004afb8c1506a86d4f10d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animator: {fileID: 0}
+  _starsCounter: {fileID: 0}
+  _poofEffect: {fileID: 0}
 --- !u!136 &6490933718060597572
 CapsuleCollider:
   m_ObjectHideFlags: 0
