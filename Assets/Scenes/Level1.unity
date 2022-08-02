@@ -3570,6 +3570,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 444401063}
     m_Modifications:
+    - target: {fileID: 7094754926289194870, guid: e963d304404704bf5bf43b7be597670c, type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 4.5e-44
+      objectReference: {fileID: 0}
+    - target: {fileID: 7094754926289194870, guid: e963d304404704bf5bf43b7be597670c, type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 4.5905e-41
+      objectReference: {fileID: 0}
+    - target: {fileID: 7094754926289194870, guid: e963d304404704bf5bf43b7be597670c, type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7094754926289194870, guid: e963d304404704bf5bf43b7be597670c, type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8563928933147473638, guid: e963d304404704bf5bf43b7be597670c, type: 3}
       propertyPath: m_Name
       value: SpeedBooster (1)
@@ -13039,6 +13055,18 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1965290941, guid: de812ff10c44449229014329e9747de0, type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1965290941, guid: de812ff10c44449229014329e9747de0, type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 4.5905e-41
+      objectReference: {fileID: 0}
+    - target: {fileID: 1965290941, guid: de812ff10c44449229014329e9747de0, type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1005445266171461379, guid: de812ff10c44449229014329e9747de0, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -13081,7 +13109,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3747800408118604403, guid: de812ff10c44449229014329e9747de0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.84
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 3747800408118604403, guid: de812ff10c44449229014329e9747de0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17954,6 +17982,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 444401063}
     m_Modifications:
+    - target: {fileID: 1965290941, guid: de812ff10c44449229014329e9747de0, type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1965290941, guid: de812ff10c44449229014329e9747de0, type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 4.5905e-41
+      objectReference: {fileID: 0}
+    - target: {fileID: 1965290941, guid: de812ff10c44449229014329e9747de0, type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1965290941, guid: de812ff10c44449229014329e9747de0, type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3747800408118604400, guid: de812ff10c44449229014329e9747de0, type: 3}
       propertyPath: m_Name
       value: GrassCutterBooster
@@ -17972,15 +18016,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3747800408118604403, guid: de812ff10c44449229014329e9747de0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.39
+      value: -0.38
       objectReference: {fileID: 0}
     - target: {fileID: 3747800408118604403, guid: de812ff10c44449229014329e9747de0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.84
+      value: 1.45
       objectReference: {fileID: 0}
     - target: {fileID: 3747800408118604403, guid: de812ff10c44449229014329e9747de0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -21.66
+      value: -22.35
       objectReference: {fileID: 0}
     - target: {fileID: 3747800408118604403, guid: de812ff10c44449229014329e9747de0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -18563,6 +18607,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 444401063}
     m_Modifications:
+    - target: {fileID: 7094754926289194870, guid: e963d304404704bf5bf43b7be597670c, type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 1e-45
+      objectReference: {fileID: 0}
+    - target: {fileID: 7094754926289194870, guid: e963d304404704bf5bf43b7be597670c, type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: -0.3948593
+      objectReference: {fileID: 0}
+    - target: {fileID: 7094754926289194870, guid: e963d304404704bf5bf43b7be597670c, type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 4.5905e-41
+      objectReference: {fileID: 0}
     - target: {fileID: 8563928933147473638, guid: e963d304404704bf5bf43b7be597670c, type: 3}
       propertyPath: m_Name
       value: SpeedBooster
@@ -18577,7 +18633,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8563928933147473639, guid: e963d304404704bf5bf43b7be597670c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.62
+      value: 2.29
       objectReference: {fileID: 0}
     - target: {fileID: 8563928933147473639, guid: e963d304404704bf5bf43b7be597670c, type: 3}
       propertyPath: m_LocalPosition.z
