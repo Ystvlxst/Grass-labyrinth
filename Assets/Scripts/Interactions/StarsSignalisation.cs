@@ -7,7 +7,7 @@ public class StarsSignalisation : MonoBehaviour
 
     public void TookKey()
     {
-        if (_starCounter.CurrentStarsCount == _starCounter.RequireStarsCount)
+        if (_starCounter.CurrentStarsCount != _starCounter.RequireStarsCount)
         {
             foreach(var transition in _foundKeyTransitions)
                 transition.OnFound();
