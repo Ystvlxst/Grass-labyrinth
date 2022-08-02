@@ -17,6 +17,6 @@ public class Key : MonoBehaviour
         _portableObject.gameObject.SetActive(true);
         gameObject.SetActive(false);
         _findKeyEffect.Play();
-        _starCounter.AllStarsFinded();
+        _starCounter.AllStarsFound();
     }
 }

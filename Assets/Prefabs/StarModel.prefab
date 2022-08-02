@@ -63,10 +63,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Star
       objectReference: {fileID: 0}
-    - target: {fileID: 2867537440868362584, guid: 91ded7ed0958d40528acc8f39beeeec7, type: 3}
-      propertyPath: m_Name
-      value: Star_Glow
-      objectReference: {fileID: 0}
     - target: {fileID: 3130675497863654593, guid: 91ded7ed0958d40528acc8f39beeeec7, type: 3}
       propertyPath: _animator
       value: 
@@ -74,11 +70,7 @@ PrefabInstance:
     - target: {fileID: 3130675497863654593, guid: 91ded7ed0958d40528acc8f39beeeec7, type: 3}
       propertyPath: _poofEffect
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3130675497863654593, guid: 91ded7ed0958d40528acc8f39beeeec7, type: 3}
-      propertyPath: _starsCounter
-      value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8548379400578610704}
     - target: {fileID: 3404994978024540817, guid: 91ded7ed0958d40528acc8f39beeeec7, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -110,6 +102,18 @@ PrefabInstance:
     - target: {fileID: 3404994978024540817, guid: 91ded7ed0958d40528acc8f39beeeec7, type: 3}
       propertyPath: m_LocalRotation.z
       value: 1.5700923e-16
+      objectReference: {fileID: 0}
+    - target: {fileID: 3404994978024540817, guid: 91ded7ed0958d40528acc8f39beeeec7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3404994978024540817, guid: 91ded7ed0958d40528acc8f39beeeec7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3404994978024540817, guid: 91ded7ed0958d40528acc8f39beeeec7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91ded7ed0958d40528acc8f39beeeec7, type: 3}
@@ -214,5 +218,10 @@ PrefabInstance:
 --- !u!4 &8548379400597978024 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 435162, guid: c51e34914bd18ff4880b11005334182e, type: 3}
+  m_PrefabInstance: {fileID: 8548379400598329458}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &8548379400578610704 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 19869282, guid: c51e34914bd18ff4880b11005334182e, type: 3}
   m_PrefabInstance: {fileID: 8548379400598329458}
   m_PrefabAsset: {fileID: 0}

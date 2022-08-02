@@ -4,17 +4,16 @@ using UnityEngine;
 public class Star : MonoBehaviour
 {
     [SerializeField] private Animator _animator;
-    [SerializeField] private StarCounter _starsCounter;
     [SerializeField] private ParticleSystem _poofEffect;
 
     private const string _interaction = "Interaction";
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.TryGetComponent(out PlayerMovement player))
+        if(other.TryGetComponent(out StarCounter starCounter))
         {
             StartCoroutine(Interact());
-            _starsCounter.FindStar();
+            starCounter.FindStar();
             _poofEffect.Play();
         }
     }
