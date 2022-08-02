@@ -14,6 +14,8 @@ public class PlayerMovement : MonoBehaviour
     private float _speedRate;
     private Coroutine _changeSpeed;
 
+    public NavMeshAgent Agent => _agent;
+
     public event UnityAction PositionUpdated;
 
     private void Awake()
@@ -33,14 +35,19 @@ public class PlayerMovement : MonoBehaviour
 
         _agent.speed = _speed * _speedRate * shift.magnitude;
 
-        if (shift.magnitude > 0)
+        if (shift.magnitude == 0)
+        {
+            _animator.SetFloat("Speed", 0);
+        }
+        else if(shift.magnitude >= 0.1f && shift.magnitude < 0.8f)
+        {
+            _animator.SetFloat("Speed", 0.5f);
+            PositionUpdated?.Invoke();
+        }
+        else if(shift.magnitude >= 0.8f)
         {
             _animator.SetFloat("Speed", 1);
             PositionUpdated?.Invoke();
-        }
-        else
-        {
-            _animator.SetFloat("Speed", 0);
         }
     }
 
