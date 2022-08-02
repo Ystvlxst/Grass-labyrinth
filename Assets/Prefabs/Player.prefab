@@ -472,8 +472,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _joystick: {fileID: 0}
-  _speed: 6
-  _animator: {fileID: 0}
+  _speed: 7
+  _animator: {fileID: 6383486720189678150}
 --- !u!195 &3131598589527182657
 NavMeshAgent:
   m_ObjectHideFlags: 0

@@ -251,14 +251,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3131598589527182780, guid: 9aa1312998f77e043ace8038826e03bb, type: 3}
-      propertyPath: _speed
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 3131598589527182780, guid: 9aa1312998f77e043ace8038826e03bb, type: 3}
-      propertyPath: _animator
-      value: 
-      objectReference: {fileID: 1582131770}
-    - target: {fileID: 3131598589527182780, guid: 9aa1312998f77e043ace8038826e03bb, type: 3}
       propertyPath: _joystick
       value: 
       objectReference: {fileID: 1160208899}
@@ -13602,11 +13594,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4528658015285456531, guid: 5b7aa987a801b43819ee9b3d9ec30a52, type: 3}
   m_PrefabInstance: {fileID: 488144697}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &1582131770 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 6383486720189678150, guid: 9aa1312998f77e043ace8038826e03bb, type: 3}
-  m_PrefabInstance: {fileID: 1129368}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1583149067 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9d6d038d41112424fbbba3eef5a192ed, type: 3}
@@ -18541,6 +18528,18 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1667335547887028103, guid: 3fcfce10a28347b46a52fbbdc91f6313, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1667335547887028103, guid: 3fcfce10a28347b46a52fbbdc91f6313, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1667335547887028103, guid: 3fcfce10a28347b46a52fbbdc91f6313, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2181737267322574118, guid: 3fcfce10a28347b46a52fbbdc91f6313, type: 3}
       propertyPath: _progress
       value: 
@@ -18549,6 +18548,14 @@ PrefabInstance:
       propertyPath: _endTrigger
       value: 
       objectReference: {fileID: 193339820}
+    - target: {fileID: 2665211830733416365, guid: 3fcfce10a28347b46a52fbbdc91f6313, type: 3}
+      propertyPath: m_text
+      value: 0/3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2665211830733416365, guid: 3fcfce10a28347b46a52fbbdc91f6313, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 2860247393005938545, guid: 3fcfce10a28347b46a52fbbdc91f6313, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -18700,6 +18707,10 @@ PrefabInstance:
     - target: {fileID: 2860247393866605371, guid: 3fcfce10a28347b46a52fbbdc91f6313, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3731193209249481900, guid: 3fcfce10a28347b46a52fbbdc91f6313, type: 3}
+      propertyPath: m_Name
+      value: StarCountPanel
       objectReference: {fileID: 0}
     - target: {fileID: 3877736655039982673, guid: 3fcfce10a28347b46a52fbbdc91f6313, type: 3}
       propertyPath: m_AnchorMax.x
@@ -18821,6 +18832,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5367318830137737112, guid: 3fcfce10a28347b46a52fbbdc91f6313, type: 3}
+      propertyPath: _starCounter
+      value: 
+      objectReference: {fileID: 1129371}
     - target: {fileID: 5618941631658148227, guid: 3fcfce10a28347b46a52fbbdc91f6313, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
