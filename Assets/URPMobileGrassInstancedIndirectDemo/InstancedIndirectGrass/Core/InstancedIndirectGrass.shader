@@ -5,10 +5,12 @@
         [MainColor] _BaseColor("BaseColor", Color) = (1,1,1,1)
         _BaseColorTexture("_BaseColorTexture", 2D) = "white" {}
         _GroundColor("_GroundColor", Color) = (0.5,0.5,0.5)
+        _SteppedColor("_SteppedColor", Color) = (0.5,0.5,0.5)
 
         [Header(Grass Shape)]
         _GrassWidth("_GrassWidth", Float) = 1
         _GrassHeight("_GrassHeight", Float) = 1
+        _SteppedGrassHeight("_SteppedGrassHeight", Float) = 0.05
 
         [Header(Wind)]
         _WindAIntensity("_WindAIntensity", Float) = 1.77
@@ -26,7 +28,7 @@
         _WindCFrequency("_WindCFrequency", Float) = 11.7
         _WindCTiling("_WindCTiling", Vector) = (0.77,3,0)
         _WindCWrap("_WindCWrap", Vector) = (0.5,0.5,0)
-
+        _SteppedWind("_SteppedWind", Range(0, 1)) = 0.0
         [Header(Lighting)]
         _RandomNormal("_RandomNormal", Float) = 0.15
 
@@ -34,7 +36,6 @@
         [HideInInspector]_PivotPosWS("_PivotPosWS", Vector) = (0,0,0,0)
         [HideInInspector]_EffectorPosWS("_EffectorPosWS", Vector) = (0,0,0,0)
         [HideInInspector]_BoundSize("_BoundSize", Vector) = (1,1,0)
-        [HideInInspector]_LossyBoundSize("_LossyBoundSize", Vector) = (1,1,0)
     }
 
     SubShader
@@ -88,10 +89,10 @@
                 float3 _PivotPosWS;
                 float3 _EffectorPosWS;
                 float2 _BoundSize;
-                float2 _LossyBoundSize;
 
                 float _GrassWidth;
                 float _GrassHeight;
+                float _SteppedGrassHeight;
 
                 float _WindAIntensity;
                 float _WindAFrequency;
@@ -107,10 +108,12 @@
                 float _WindCFrequency;
                 float2 _WindCTiling;
                 float2 _WindCWrap;
+                float _SteppedWind;
 
                 half3 _BaseColor;
                 float4 _BaseColorTexture_ST;
                 half3 _GroundColor;
+                half3 _SteppedColor;
 
                 half _RandomNormal;
 
@@ -150,8 +153,7 @@
 
                 float3 perGrassPivotPosWS = _AllInstancesTransformBuffer[_VisibleInstanceOnlyTransformIDBuffer[instanceID]];//we pre-transform to posWS in C# now
 
-                //float perGrassHeight = lerp(2,5,(sin(perGrassPivotPosWS.x*23.4643 + perGrassPivotPosWS.z) * 0.45 + 0.55)) * _GrassHeight;
-                float perGrassHeight = _GrassHeight;
+                float perGrassHeight = lerp(2,5,(sin(perGrassPivotPosWS.x*23.4643 + perGrassPivotPosWS.z) * 0.45 + 0.55)) * _GrassHeight;
 
                 //get "is grass stepped" data(bending) from RT
                 float2 grassBendingUV = ((perGrassPivotPosWS.xz - _PivotPosWS.xz) / _BoundSize) * 0.5 + 0.5;//claculate where is this grass inside bound (can optimize to 2 MAD)
@@ -174,7 +176,7 @@
                 float3 bendDir = cameraTransformForwardWS;
                 bendDir.xz *= 0.5; //make grass shorter when bending, looks better
                 bendDir.y = min(-0.5,bendDir.y);//prevent grass become too long if camera forward is / near parallel to ground
-                positionOS = lerp(positionOS.xyz + bendDir * positionOS.y / -bendDir.y, positionOS.xyz, stepped * 0.95 - 0.03);//don't fully bend, will produce ZFighting
+                positionOS = lerp(positionOS.xyz + bendDir * positionOS.y / -bendDir.y, positionOS.xyz, stepped * 0.95 + _SteppedGrassHeight);//don't fully bend, will produce ZFighting
 
                 //per grass height scale
                 positionOS.y *= perGrassHeight;
@@ -195,7 +197,7 @@
                 wind += (sin(_Time.y * _WindCFrequency + perGrassPivotPosWS.x * _WindCTiling.x + perGrassPivotPosWS.z * _WindCTiling.y)*_WindCWrap.x+_WindCWrap.y) * _WindCIntensity; //windC
                 wind *= IN.positionOS.y; //wind only affect top region, don't affect root region
                 float3 windOffset = cameraTransformRightWS * wind; //swing using billboard left right direction
-                positionWS.xyz += windOffset * stepped;
+                positionWS.xyz += windOffset * (stepped + _SteppedWind);
                 
                 float2 effectorOffsetXZ = _EffectorPosWS.xz - (positionOS + perGrassPivotPosWS).xz;
                 float effectorForce = 7 - clamp(length(effectorOffsetXZ), 0, 7);
@@ -225,20 +227,33 @@
 
                 half3 V = viewWS / ViewWSLength;
 
-                float2 uv = (((IN.positionOS + perGrassPivotPosWS).xz - _PivotPosWS.xz + _LossyBoundSize) / (_LossyBoundSize * 2));
-                half3 baseColor = tex2Dlod(_BaseColorTexture, float4(TRANSFORM_TEX(uv,_BaseColorTexture),0,0));//sample mip 0 only
-                half3 startColor = baseColor * (_BaseColor * stepped + _GroundColor * 2 * (1 - stepped));
-                half3 endColor = baseColor * (_BaseColor * 2 * stepped + _GroundColor * 2 * (1 - stepped));
-                half3 albedo = lerp(startColor, endColor, IN.positionOS.y);
+                half3 baseColor = tex2Dlod(_BaseColorTexture, float4(TRANSFORM_TEX(positionWS.xz,_BaseColorTexture),0,0)) * _BaseColor;//sample mip 0 only
+                half3 endColor = baseColor * stepped + _SteppedColor * (1 - stepped);
+                half3 albedo = lerp(_GroundColor, endColor, IN.positionOS.y);
 
                 //indirect
                 half3 lightingResult = SampleSH(0) * albedo;
 
                 //main direct light
-                lightingResult += ApplySingleDirectLight(mainLight, N, V, albedo, positionOS.y) / 3;
+                lightingResult += ApplySingleDirectLight(mainLight, N, V, albedo, positionOS.y);
 
                 // Additional lights loop
+#if _ADDITIONAL_LIGHTS
 
+                // Returns the amount of lights affecting the object being renderer.
+                // These lights are culled per-object in the forward renderer
+                int additionalLightsCount = GetAdditionalLightsCount();
+                for (int i = 0; i < additionalLightsCount; ++i)
+                {
+                    // Similar to GetMainLight, but it takes a for-loop index. This figures out the
+                    // per-object light index and samples the light buffer accordingly to initialized the
+                    // Light struct. If _ADDITIONAL_LIGHT_SHADOWS is defined it will also compute shadows.
+                    Light light = GetAdditionalLight(i, positionWS);
+
+                    // Same functions used to shade the main light.
+                    lightingResult += ApplySingleDirectLight(light, N, V, albedo, positionOS.y);
+                }
+#endif
 
                 //fog
                 float fogFactor = ComputeFogFactor(OUT.positionCS.z);

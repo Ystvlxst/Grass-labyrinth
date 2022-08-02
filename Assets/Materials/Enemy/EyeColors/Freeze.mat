@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Head_Eye
+  m_Name: Freeze
   m_Shader: {fileID: 4800000, guid: bee44b4a58655ee4cbff107302a3e131, type: 3}
   m_ShaderKeywords: _CELPRIMARYMODE_NONE _TEXTUREBLENDINGMODE_MULTIPLY _UNITYSHADOWMODE_NONE
   m_LightmapFlags: 4
@@ -28,7 +28,8 @@ Material:
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
-  disabledShaderPasses: []
+  disabledShaderPasses:
+  - SRPDEFAULTUNLIT
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -232,7 +233,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.9811321, g: 0.75240064, b: 0, a: 1}
+    - _BaseColor: {r: 0.1981132, g: 0.1981132, b: 0.1981132, a: 1}
     - _Color: {r: 0.3266593, g: 0.3266593, b: 0.3266593, a: 1}
     - _ColorDim: {r: 0.017211765, g: 0.027314806, b: 0.07450981, a: 1}
     - _ColorDimCurve: {r: 0.20754719, g: 0.20754719, b: 0.49803922, a: 0.85056}

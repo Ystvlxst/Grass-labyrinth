@@ -3,17 +3,17 @@ using UnityEngine;
 
 public class GrassCutterBooster : MonoBehaviour
 {
-    [SerializeField] private GameObject _grassBending;
+    [SerializeField] private float _increase;
     [SerializeField] private Animator _animator;
 
     private const string _interaction = "Interaction";
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.TryGetComponent(out PlayerMovement player))
+        if(other.TryGetComponent(out GrassCutter grassCutter))
         {
             StartCoroutine(Interact());
-            Boost();
+            grassCutter.Increase(_increase);
         }
     }
 
@@ -22,10 +22,5 @@ public class GrassCutterBooster : MonoBehaviour
         _animator.SetTrigger(_interaction);
         yield return new WaitForSeconds(1);
         gameObject.SetActive(false);
-    }
-
-    private void Boost()
-    {
-        _grassBending.transform.localScale += new Vector3(1, 1, 1);
     }
 }
