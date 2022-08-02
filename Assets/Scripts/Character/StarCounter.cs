@@ -1,9 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class StarCounter : MonoBehaviour
 {
+    [SerializeField] private DistanceToKeySignalTransition[] _enemyes;
+
     private int _requireStarsCount;
     private int _currentStarsCount;
 
@@ -30,7 +30,8 @@ public class StarCounter : MonoBehaviour
     {
         if(_currentStarsCount == _requireStarsCount)
         {
-
+            foreach(var enemy in _enemyes)
+                enemy.enabled = false;
         }
     }
 }
