@@ -179,86 +179,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1344196648681401317, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
-      propertyPath: _player
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1344196648681401317, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
-      propertyPath: _loseCanvas
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1344196648681401317, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
-      propertyPath: _goals.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1344196648681401317, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
-      propertyPath: _goals.Array.data[1]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1344196648681401317, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
-      propertyPath: _goals.Array.data[2]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1344196648681401317, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
-      propertyPath: _goals.Array.data[3]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1344196648681401317, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
-      propertyPath: _goals.Array.data[4]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1344196648681401317, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
-      propertyPath: _goals.Array.data[5]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1344196648681401317, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
-      propertyPath: _goals.Array.data[6]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1344196648681401317, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
-      propertyPath: _goals.Array.data[7]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1344196648681401317, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
-      propertyPath: _goals.Array.data[8]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4288393192808708508, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8202812341660054890, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
       propertyPath: _path
       value: 
       objectReference: {fileID: 7491076250128593145}
-    - target: {fileID: 8202812341660054890, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
-      propertyPath: _player
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8202812341660054890, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
-      propertyPath: _goals.Array.size
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8202812341660054890, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
-      propertyPath: _goals.Array.data[0]
-      value: 
-      objectReference: {fileID: 3656860103096457445}
-    - target: {fileID: 8202812341660054890, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
-      propertyPath: _goals.Array.data[1]
-      value: 
-      objectReference: {fileID: 3656860104796351559}
-    - target: {fileID: 8202812341660054890, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
-      propertyPath: _goals.Array.data[2]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8202812341660054890, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
-      propertyPath: _goals.Array.data[3]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8202812341660054890, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
-      propertyPath: _goals.Array.data[4]
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
 --- !u!4 &3656860104065809455 stripped

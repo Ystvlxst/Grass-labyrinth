@@ -4,16 +4,16 @@ using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent))]
 public class FrozeTransition : Transition
 {
-    [SerializeField] private EnemyFreeze _enemyFreeze;
+    [SerializeField] private EnemyFreezeState enemyFreezeState;
     
     protected override void Enable()
     {
-        _enemyFreeze.Froze += OnFroze;
+        enemyFreezeState.Froze += OnFroze;
     }
 
     private void OnDisable()
     {
-        _enemyFreeze.Froze -= OnFroze;
+        enemyFreezeState.Froze -= OnFroze;
     }
 
     private void OnFroze()

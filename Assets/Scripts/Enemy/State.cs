@@ -1,11 +1,16 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public abstract class State : MonoBehaviour
 {
     [SerializeField] private List<Transition> _transitions;
     [SerializeField] private bool _randomTransition = false;
 
+    public event Action<State> Entered;
+    public event Action<State> Exited;
+    
     public void Enter()
     {
         if (enabled == false)
@@ -14,6 +19,8 @@ public abstract class State : MonoBehaviour
             
             foreach (var transition in _transitions)
                 transition.enabled = true;
+
+            Entered?.Invoke(this);
         }
     }
 
@@ -25,6 +32,8 @@ public abstract class State : MonoBehaviour
                 transition.enabled = false;
 
             enabled = false;
+            
+            Exited?.Invoke(this);
         }
     }
 

@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -5,14 +6,23 @@ using UnityEngine.AI;
 public class TimerTransition : Transition
 {
     [SerializeField] private float _time;
-    
+    private Coroutine _transit;
+
     protected override void Enable()
     {
-        Invoke(nameof(Transit), _time);
+        if (_transit != null)
+        {
+            StopCoroutine(_transit);
+            _transit = null;
+        }
+        
+        _transit = StartCoroutine(Transit());
     }
 
-    public void Transit()
+    private IEnumerator Transit()
     {
+        yield return new WaitForSeconds(_time);
         NeedTransit = true;
+        _transit = null;
     }
 }
