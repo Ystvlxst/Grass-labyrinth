@@ -73,7 +73,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3656860104250112685, guid: 36324c335dacc714aa8b54d03e4c6840, type: 3}
       propertyPath: m_Name
-      value: PatrollingEnemyRoot (3)
+      value: TimerPlayerFollowEnemy
       objectReference: {fileID: 0}
     - target: {fileID: 4766066982816667294, guid: 36324c335dacc714aa8b54d03e4c6840, type: 3}
       propertyPath: _pairs.Array.data[0].<EyeMaterial>k__BackingField

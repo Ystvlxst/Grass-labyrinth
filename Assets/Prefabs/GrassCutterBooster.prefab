@@ -44,7 +44,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 0, g: 0.66097784, b: 1, a: 1}
   m_Intensity: 1.5
-  m_Range: 1.8
+  m_Range: 3
   m_SpotAngle: 179
   m_InnerSpotAngle: 170.80211
   m_CookieSize: 10
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d7cb47f60b394bf084e3c37129de154, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _grassBending: {fileID: 0}
+  _increase: 0
   _animator: {fileID: 3747800408118604365}
 --- !u!1001 &3747800408842215407
 PrefabInstance:

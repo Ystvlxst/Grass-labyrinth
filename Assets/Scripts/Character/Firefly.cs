@@ -13,7 +13,7 @@ public class Firefly : MonoBehaviour
     private void Start()
     {
         _agent = GetComponent<NavMeshAgent>();
-        _agent.baseOffset = 1.5f;
+        _agent.baseOffset = 1;
     }
 
     private void Update()
