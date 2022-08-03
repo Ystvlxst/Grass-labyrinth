@@ -14,8 +14,7 @@ Material:
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
-  stringTagMap:
-    RenderType: Opaque
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -71,8 +70,8 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _GrassHeight: 1.03
-    - _GrassWidth: 0.2
+    - _GrassHeight: 1
+    - _GrassWidth: 0.1
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _QueueOffset: 0
@@ -83,7 +82,7 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _SteppedGrassHeight: 0.05
+    - _SteppedGrassHeight: 0.25
     - _SteppedWind: 0
     - _Surface: 0
     - _WindAFrequency: 1
@@ -100,7 +99,7 @@ Material:
     - _BaseColor: {r: 0, g: 1, b: 0.0666666, a: 1}
     - _BoundSize: {r: 50, g: 37.61, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EffectorPosWS: {r: 0, g: 0.5, b: -57.22, a: 0}
+    - _EffectorPosWS: {r: 0, g: 0.5, b: -59.840004, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GroundColor: {r: 0, g: 0.5754717, b: 0.03883549, a: 1}
     - _LossyBoundSize: {r: 50, g: 37.61, b: 0, a: 0}

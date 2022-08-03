@@ -430,6 +430,7 @@ GameObject:
   - component: {fileID: 2899015898150578573}
   - component: {fileID: 4650107886007668106}
   - component: {fileID: 2098909737502410011}
+  - component: {fileID: 216431750031472899}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -613,6 +614,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _starCounter: {fileID: 4650107886007668106}
   _foundKeyTransitions: []
+--- !u!114 &216431750031472899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3131598589527182782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e101ec36368a7d044bcef43ab5373114, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _trailRendererTemplate: {fileID: 5896385540633024253, guid: c9e71717c33f2d84ca72a722bc62ccff, type: 3}
+  _currentTrailRenderer: {fileID: 3131598590174345793}
 --- !u!1 &3131598589907630310
 GameObject:
   m_ObjectHideFlags: 0
