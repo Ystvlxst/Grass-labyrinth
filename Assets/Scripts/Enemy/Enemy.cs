@@ -20,6 +20,12 @@ public class Enemy : MonoBehaviour
         Transit(_firstState);
     }
 
+    public void Disable()
+    {
+        _currentState.Exit();
+        enabled = false;
+    }
+
     private void Update()
     {
         if (_currentState == null)
