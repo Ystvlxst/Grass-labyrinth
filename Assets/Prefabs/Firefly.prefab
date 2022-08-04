@@ -319,6 +319,10 @@ PrefabInstance:
       propertyPath: m_Range
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5909991436420052043, guid: dd3e7fbf8d5ea044cb9d5f0f9a90a001, type: 3}
+      propertyPath: m_BounceIntensity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd3e7fbf8d5ea044cb9d5f0f9a90a001, type: 3}
 --- !u!4 &5672119802144571755 stripped
