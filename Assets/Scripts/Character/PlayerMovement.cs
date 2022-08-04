@@ -6,6 +6,8 @@ using UnityEngine.Events;
 [RequireComponent(typeof(NavMeshAgent))]
 public class PlayerMovement : MonoBehaviour
 {
+    private static readonly int Speed = Animator.StringToHash("Speed");
+    
     [SerializeField] private FloatingJoystick _joystick;
     [SerializeField] private float _speed = 10;
     [SerializeField] private Animator _animator;
@@ -13,10 +15,10 @@ public class PlayerMovement : MonoBehaviour
     private NavMeshAgent _agent;
     private float _speedRate;
     private Coroutine _changeSpeed;
-
-    public NavMeshAgent Agent => _agent;
-
+    
     public event UnityAction PositionUpdated;
+    
+    public NavMeshAgent Agent => _agent;
 
     private void Awake()
     {
@@ -37,16 +39,16 @@ public class PlayerMovement : MonoBehaviour
 
         if (shift.magnitude == 0)
         {
-            _animator.SetFloat("Speed", 0);
+            _animator.SetFloat(Speed, 0);
         }
         else if(shift.magnitude >= 0.1f && shift.magnitude < 0.8f)
         {
-            _animator.SetFloat("Speed", 0.5f);
+            _animator.SetFloat(Speed, 0.5f);
             PositionUpdated?.Invoke();
         }
         else if(shift.magnitude >= 0.8f)
         {
-            _animator.SetFloat("Speed", 1);
+            _animator.SetFloat(Speed, 1);
             PositionUpdated?.Invoke();
         }
     }

@@ -601,6 +601,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _animator: {fileID: 6383486720189678150}
+  _player: {fileID: 1265777951}
 --- !u!114 &4650107886007668106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -626,11 +627,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _starCounter: {fileID: 4650107886007668106}
-  _foundKeyTransitions:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  _enemyContainer: {fileID: 0}
 --- !u!114 &1265777949
 MonoBehaviour:
   m_ObjectHideFlags: 0
