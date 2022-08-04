@@ -4,7 +4,6 @@ using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent))]
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] private LoseCanvas _loseCanvas;
     [SerializeField] private State _firstState;
     [field: SerializeField] public Transform Player { get; private set; }
 
@@ -28,8 +27,8 @@ public class Enemy : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.TryGetComponent(out PlayerMovement player))
-            _loseCanvas.Show();
+        if (other.TryGetComponent(out Player player))
+            player.Die();
     }
 
     private void Transit(State nextState)
