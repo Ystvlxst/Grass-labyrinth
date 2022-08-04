@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7225653039348170972}
   - component: {fileID: 2305506060771003884}
   - component: {fileID: 3977349100621151027}
+  - component: {fileID: 8962379075671412361}
   m_Layer: 0
   m_Name: Firefly
   m_TagString: Untagged
@@ -91,7 +92,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9171107128750792969}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1a9b3a971195d4546ba9dbef86f4c22a, type: 3}
   m_Name: 
@@ -105,9 +106,9 @@ NavMeshAgent:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9171107128750792969}
-  m_Enabled: 1
+  m_Enabled: 0
   m_AgentTypeID: 0
-  m_Radius: 0.1
+  m_Radius: 0.01
   m_Speed: 3.5
   m_Acceleration: 8
   avoidancePriority: 50
@@ -120,6 +121,25 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!1818360608 &8962379075671412361
+PositionConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9171107128750792969}
+  m_Enabled: 1
+  m_Weight: 1
+  m_TranslationAtRest: {x: 1.37, y: 6.04, z: -56.883434}
+  m_TranslationOffset: {x: 1.37, y: 6.04, z: 0.33656693}
+  m_AffectTranslationX: 1
+  m_AffectTranslationY: 1
+  m_AffectTranslationZ: 1
+  m_IsContraintActive: 1
+  m_IsLocked: 0
+  m_Sources:
+  - sourceTransform: {fileID: 0}
+    weight: 1
 --- !u!1001 &8324684586398157971
 PrefabInstance:
   m_ObjectHideFlags: 0
