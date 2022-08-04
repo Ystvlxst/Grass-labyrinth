@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7225653039348170972}
   - component: {fileID: 2305506060771003884}
   - component: {fileID: 3977349100621151027}
+  - component: {fileID: 457018908}
   m_Layer: 0
   m_Name: Firefly
   m_TagString: Untagged
@@ -27,14 +28,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9171107128750792969}
-  m_LocalRotation: {x: 1, y: -1.11022296e-16, z: 1.110223e-16, w: -0.0000000754979}
+  m_LocalRotation: {x: -1, y: 0, z: 0, w: 0}
   m_LocalPosition: {x: 3.03, y: 6.7, z: -51.823433}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 5672119802144571755}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -180, y: 0, z: 0}
 --- !u!33 &4873557175571657750
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -91,7 +92,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9171107128750792969}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1a9b3a971195d4546ba9dbef86f4c22a, type: 3}
   m_Name: 
@@ -105,7 +106,7 @@ NavMeshAgent:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9171107128750792969}
-  m_Enabled: 1
+  m_Enabled: 0
   m_AgentTypeID: 0
   m_Radius: 0.1
   m_Speed: 3.5
@@ -120,6 +121,25 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!1818360608 &457018908
+PositionConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9171107128750792969}
+  m_Enabled: 1
+  m_Weight: 1
+  m_TranslationAtRest: {x: -0.07, y: 4.41, z: -59.35}
+  m_TranslationOffset: {x: -0.07, y: 4.41, z: 0.4900055}
+  m_AffectTranslationX: 1
+  m_AffectTranslationY: 1
+  m_AffectTranslationZ: 1
+  m_IsContraintActive: 1
+  m_IsLocked: 1
+  m_Sources:
+  - sourceTransform: {fileID: 0}
+    weight: 1
 --- !u!1001 &8324684586398157971
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -132,8 +152,16 @@ PrefabInstance:
       value: Firefly_Glow
       objectReference: {fileID: 0}
     - target: {fileID: 3187948623658347553, guid: dd3e7fbf8d5ea044cb9d5f0f9a90a001, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 3187948623658347553, guid: dd3e7fbf8d5ea044cb9d5f0f9a90a001, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 3187948623658347553, guid: dd3e7fbf8d5ea044cb9d5f0f9a90a001, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.017
+      value: -0.41
       objectReference: {fileID: 0}
     - target: {fileID: 3637066870899401095, guid: dd3e7fbf8d5ea044cb9d5f0f9a90a001, type: 3}
       propertyPath: m_MaskInteraction
@@ -317,7 +345,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5909991436420052043, guid: dd3e7fbf8d5ea044cb9d5f0f9a90a001, type: 3}
       propertyPath: m_Range
-      value: 10
+      value: 9.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909991436420052043, guid: dd3e7fbf8d5ea044cb9d5f0f9a90a001, type: 3}
+      propertyPath: m_Color.g
+      value: 0.8427867
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909991436420052043, guid: dd3e7fbf8d5ea044cb9d5f0f9a90a001, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909991436420052043, guid: dd3e7fbf8d5ea044cb9d5f0f9a90a001, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909991436420052043, guid: dd3e7fbf8d5ea044cb9d5f0f9a90a001, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 170.8021
       objectReference: {fileID: 0}
     - target: {fileID: 5909991436420052043, guid: dd3e7fbf8d5ea044cb9d5f0f9a90a001, type: 3}
       propertyPath: m_BounceIntensity
