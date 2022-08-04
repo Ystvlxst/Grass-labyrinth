@@ -3,9 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="d0c1f03b-3e6c-4256-80f7-90bf767f352e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Grass-labirint/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Grass-labirint/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/BoosterController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/BoosterController.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/GrassFigure/Level1/GrassMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/GrassFigure/Level1/GrassMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/GrassFigure/Level1/TextureGround.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/GrassFigure/Level1/TextureGround.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Key.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Key.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Camera/CM StateDrivenCamera1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Camera/CM StateDrivenCamera1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GrassCutterBooster.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GrassCutterBooster.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SpeedBooster.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SpeedBooster.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/StarModel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/StarModel.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyContainer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Boot/Levels/LevelSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Boot/Levels/LevelSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +101,7 @@
       <workItem from="1659253487213" duration="5631000" />
       <workItem from="1659338522072" duration="676000" />
       <workItem from="1659428900822" duration="9581000" />
-      <workItem from="1659596808265" duration="2531000" />
+      <workItem from="1659596808265" duration="3719000" />
     </task>
     <servers />
   </component>

@@ -71,8 +71,8 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _GrassHeight: 1.03
-    - _GrassWidth: 0.2
+    - _GrassHeight: 1.11
+    - _GrassWidth: 0.38
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _QueueOffset: 0

@@ -59,7 +59,10 @@ MonoBehaviour:
   m_AnimatedTarget: {fileID: 2466246710535664913}
   m_LayerIndex: 0
   m_ShowDebugText: 0
-  m_ChildCameras: []
+  m_ChildCameras:
+  - {fileID: 8986882881366177466}
+  - {fileID: 2466246712131804713}
+  - {fileID: 2466246711576838136}
   m_Instructions:
   - m_FullHash: -455033529
     m_VirtualCamera: {fileID: 2466246712131804713}
@@ -179,7 +182,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 35, z: -30}
+  m_FollowOffset: {x: 0, y: 24.52, z: -20.6}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -212,14 +215,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2466246710663663827}
-  m_LocalRotation: {x: 0.38831988, y: 0, z: 0, w: 0.9215247}
-  m_LocalPosition: {x: -9.644039, y: -123.939804, z: 368.74216}
+  m_LocalRotation: {x: 0.38671097, y: 0, z: 0, w: 0.92220104}
+  m_LocalPosition: {x: -9.644039, y: -119.4198, z: 348.38214}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2466246710542673585}
   m_Father: {fileID: 2466246710535664919}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 45.7, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 45.5, y: 0, z: 0}
 --- !u!114 &2466246712131804713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -241,7 +244,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 65
+    FieldOfView: 75
     OrthographicSize: 5
     NearClipPlane: 0.3
     FarClipPlane: 1000
@@ -456,7 +459,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7877611406072028090}
   m_LocalRotation: {x: 0.38831988, y: 0, z: 0, w: 0.9215247}
-  m_LocalPosition: {x: -9.644039, y: -123.939804, z: 371.99216}
+  m_LocalPosition: {x: -9.644039, y: -118.939804, z: 348.98215}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1371342362045637408}
@@ -484,7 +487,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 70
+    FieldOfView: 80
     OrthographicSize: 5
     NearClipPlane: 0.3
     FarClipPlane: 1000
