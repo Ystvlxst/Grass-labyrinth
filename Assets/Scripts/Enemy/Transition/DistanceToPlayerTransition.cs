@@ -8,7 +8,7 @@ public class DistanceToPlayerTransition : Transition
     [SerializeField] private float _distance;
     [SerializeField] private bool _less = true;
     
-    private Transform _player => _enemy.Player;
+    private Transform _player => _enemy.Player.transform;
     private NavMeshAgent _agent;
 
     private void Awake()

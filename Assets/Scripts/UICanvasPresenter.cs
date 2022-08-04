@@ -3,7 +3,6 @@ using UnityEngine;
 public class UICanvasPresenter : MonoBehaviour
 {
     [SerializeField] private EndLevelTrigger _endTrigger;
-    [SerializeField] private CameraBlend _cameraBlend;
     [SerializeField] private WinCanvas _winCanvas;
     [SerializeField] private LoseCanvas _loseCanvas;
     [SerializeField] private GameCanvas _gameCanvas;
@@ -25,7 +24,6 @@ public class UICanvasPresenter : MonoBehaviour
     {
         _gameCanvas.Hide();
         _winCanvas.Show();
-        _cameraBlend.ShowPicture();
         _joystic.enabled = false;
     }
 
@@ -33,7 +31,6 @@ public class UICanvasPresenter : MonoBehaviour
     {
         _gameCanvas.Hide();
         _loseCanvas.Show();
-        _cameraBlend.ShowPicture();
         _joystic.enabled = false;
     }
 }

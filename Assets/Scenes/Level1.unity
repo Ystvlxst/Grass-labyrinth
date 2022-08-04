@@ -131,6 +131,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1721825727}
     m_Modifications:
     - target: {fileID: 2098909737502410011, guid: 9aa1312998f77e043ace8038826e03bb, type: 3}
+      propertyPath: _enemyContainer
+      value: 
+      objectReference: {fileID: 2069199293}
+    - target: {fileID: 2098909737502410011, guid: 9aa1312998f77e043ace8038826e03bb, type: 3}
       propertyPath: _foundKeyTransitions.Array.data[0]
       value: 
       objectReference: {fileID: 13733209}
@@ -2047,9 +2051,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce8afb50e558a0e4286267029c4f351d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _levelProgress: {fileID: 1465737612}
-  _maxErrorPercentage: 0.3
-  _winPercentage: 0.85
+  _player: {fileID: 1265777951}
 --- !u!4 &194248365 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4528658015285456531, guid: 5b7aa987a801b43819ee9b3d9ec30a52, type: 3}
@@ -4841,7 +4843,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _endTrigger: {fileID: 193339820}
-  _cameraBlend: {fileID: 2058922605}
   _winCanvas: {fileID: 524228989}
   _loseCanvas: {fileID: 102583980}
   _gameCanvas: {fileID: 1996424188}
@@ -7748,7 +7749,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d75c6292aeb24a6485f2125e7705c23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _playerKey: {fileID: 0}
+  _playerKey: {fileID: 1129371}
   _doorAnimator: {fileID: 1583149068}
 --- !u!65 &991431824
 BoxCollider:
@@ -10672,6 +10673,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 18f8d0d17d2f34dc9bd9654a87bd119d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1265777951 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1265777951, guid: 9aa1312998f77e043ace8038826e03bb, type: 3}
+  m_PrefabInstance: {fileID: 1129368}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65306ae7dc15ad54f86cc8c550832564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1265777958 stripped
@@ -16849,6 +16861,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2069199292}
+  - component: {fileID: 2069199293}
   m_Layer: 0
   m_Name: Enemyes
   m_TagString: Untagged
@@ -16874,6 +16887,19 @@ Transform:
   m_Father: {fileID: 652083985}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2069199293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2069199291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fefe296793e59b243916e38aeef188df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _player: {fileID: 1265777951}
 --- !u!4 &2084295685 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4528658015285456531, guid: 5b7aa987a801b43819ee9b3d9ec30a52, type: 3}

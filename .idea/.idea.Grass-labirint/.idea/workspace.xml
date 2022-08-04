@@ -2,30 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0c1f03b-3e6c-4256-80f7-90bf767f352e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/GrassCutter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character/GrassCutter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GrassCutter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character/GrassCutter.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Epic Toon FX/Upgrade/ETFX 2019.2.3f1 LWRP Upgrade.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Epic Toon FX/Upgrade/ETFX 2019.3 URP Fix.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Epic Toon FX/Upgrade/ETFX Standard Materials.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/ItemIcons/128/128.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/ItemIcons/256/256.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/ItemIcons/32/32.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/ItemIcons/512/512.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/ItemIcons/64/64.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/ItemIcons/backup/backup.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/128/128.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/256/256.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/32/32.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/512/512.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/64/64.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/backup.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/RuneIcons/128/128.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/RuneIcons/256/256.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/RuneIcons/512/512.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/RuneIcons/64/64.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/State.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Transition.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Grass-labirint/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Grass-labirint/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/GrassFigure/Level1/GrassMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/GrassFigure/Level1/GrassMaterial.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/FoundKeyTransition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Transition/FoundKeyTransition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/FoundKeyTransition.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Transition/FoundKeyTransition.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/DistanceToPlayerTransition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Transition/DistanceToPlayerTransition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/DistanceToPlayerTransition.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Transition/DistanceToPlayerTransition.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyFreezeState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/State/EnemyFreezeState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyFreezeState.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/State/EnemyFreezeState.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/FollowPlayerState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/State/FollowPlayerState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/FollowPlayerState.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/State/FollowPlayerState.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/FreezeTransition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Transition/FreezeTransition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/FreezeTransition.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Transition/FreezeTransition.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/FrozeTransition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Transition/FrozeTransition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/FrozeTransition.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Transition/FrozeTransition.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/PatrollingState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/State/PatrollingState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/PatrollingState.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/State/PatrollingState.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/PlayerFindKeyState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/State/PlayerFindKeyState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/PlayerFindKeyState.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/State/PlayerFindKeyState.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/State.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/State/State.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/State.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/State/State.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/TimerTransition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Transition/TimerTransition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/TimerTransition.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Transition/TimerTransition.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Transition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Transition/Transition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Transition.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Transition/Transition.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interactions/StarsSignalisation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interactions/StarsSignalisation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Picture/EndLevelTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Picture/EndLevelTrigger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/ProgressSliders.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/ProgressSliders.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UICanvasPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UICanvasPresenter.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +65,14 @@
     <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/DecompilerCache/decompiler/07c89f7520694139991332d3cf930d4813bc00/c4/175f7bc8/RenderTargetIdentifier.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../GrassCutter/Assets/FacebookSDK/Examples/Windows/FBWindowsPhysicalGamepadManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.7.0/Runtime/UniversalAdditionalCameraData.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/FoundKeyTransition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Transition/FoundKeyTransition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../GrassCutter/Assets/Scripts/UI/Canvas/WinCanvas.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/DecompilerCache/decompiler/07c89f7520694139991332d3cf930d4813bc00/1d/7ace48c0/SortingCriteria.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyContainer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/DecompilerCache/decompiler/07c89f7520694139991332d3cf930d4813bc00/32/130bb5e6/ScriptableRenderContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.7.0/Runtime/Passes/ScriptableRenderPass.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../GrassCutter/Assets/Scripts/Character/PlayerAccuracyView.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/FreezeTransition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Transition/FreezeTransition.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2Ca6b0HVa6HuTof3bnvczUDSWKJ" />
   <component name="ProjectViewState">
@@ -112,7 +122,7 @@
       <workItem from="1659253487213" duration="5631000" />
       <workItem from="1659338522072" duration="676000" />
       <workItem from="1659428900822" duration="9581000" />
-      <workItem from="1659596808265" duration="320000" />
+      <workItem from="1659596808265" duration="1765000" />
     </task>
     <servers />
   </component>

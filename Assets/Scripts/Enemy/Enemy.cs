@@ -5,10 +5,16 @@ using UnityEngine.AI;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] private State _firstState;
-    [field: SerializeField] public Transform Player { get; private set; }
 
     private State _currentState;
     
+    public Player Player { get; private set; }
+
+    public void Init(Player player)
+    {
+        Player = player;
+    }
+
     public void Start()
     {
         Transit(_firstState);
