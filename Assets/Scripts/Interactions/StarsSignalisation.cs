@@ -20,7 +20,6 @@ public class StarsSignalisation : MonoBehaviour
         }
         else
         {
-            _enemyContainer.Signal();
             _findKeyEffectAllStars.Play();
         }
     }
