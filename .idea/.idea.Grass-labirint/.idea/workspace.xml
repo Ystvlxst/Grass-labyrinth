@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0c1f03b-3e6c-4256-80f7-90bf767f352e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Grass-labirint/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Grass-labirint/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level1 1.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level1 1/NavMesh-NavMesh.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level1 1/NavMesh-NavMesh.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/GrassFigure/Level1/GrassMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/GrassFigure/Level1/GrassMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Key.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Key.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MazeGeneration/Cell 3D.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MazeGeneration/Cell 3D.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MazeGeneration/MazeSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MazeGeneration/MazeSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bridge.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bridge.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Firefly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Firefly.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/NavMesh-NavMesh.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/NavMesh-NavMesh.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level2.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
