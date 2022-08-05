@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _player: {fileID: 0}
-  _distance: 4
+  _distance: 5
 --- !u!195 &3977349100621151027
 NavMeshAgent:
   m_ObjectHideFlags: 0
