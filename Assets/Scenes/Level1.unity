@@ -3771,6 +3771,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8563928933147473640, guid: e963d304404704bf5bf43b7be597670c, type: 3}
+      propertyPath: _camera
+      value: 
+      objectReference: {fileID: 2058922605}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e963d304404704bf5bf43b7be597670c, type: 3}
 --- !u!1001 &391940224
@@ -13277,10 +13281,6 @@ PrefabInstance:
       value: GrassCutterBooster (1)
       objectReference: {fileID: 0}
     - target: {fileID: 3747800408118604402, guid: de812ff10c44449229014329e9747de0, type: 3}
-      propertyPath: _increase
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3747800408118604402, guid: de812ff10c44449229014329e9747de0, type: 3}
       propertyPath: _grassBending
       value: 
       objectReference: {fileID: 1844576912}
@@ -17741,8 +17741,20 @@ PrefabInstance:
       value: CM StateDrivenCamera
       objectReference: {fileID: 0}
     - target: {fileID: 2466246710535664918, guid: 61ebc9d34fad0c54c819c2eb3a42dc5d, type: 3}
+      propertyPath: m_ParentHash.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2466246710535664918, guid: 61ebc9d34fad0c54c819c2eb3a42dc5d, type: 3}
       propertyPath: m_ChildCameras.Array.size
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2466246710535664918, guid: 61ebc9d34fad0c54c819c2eb3a42dc5d, type: 3}
+      propertyPath: m_ParentHash.Array.data[3].m_Hash
+      value: 1136948462
+      objectReference: {fileID: 0}
+    - target: {fileID: 2466246710535664918, guid: 61ebc9d34fad0c54c819c2eb3a42dc5d, type: 3}
+      propertyPath: m_ParentHash.Array.data[3].m_ParentHash
+      value: 756556552
       objectReference: {fileID: 0}
     - target: {fileID: 2466246710535664919, guid: 61ebc9d34fad0c54c819c2eb3a42dc5d, type: 3}
       propertyPath: m_RootOrder
@@ -17812,6 +17824,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: 40.31
       objectReference: {fileID: 0}
+    - target: {fileID: 2466246710739083538, guid: 61ebc9d34fad0c54c819c2eb3a42dc5d, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2466246712131804713, guid: 61ebc9d34fad0c54c819c2eb3a42dc5d, type: 3}
       propertyPath: m_Follow
       value: 
@@ -17827,6 +17843,22 @@ PrefabInstance:
     - target: {fileID: 2713703849762355976, guid: 61ebc9d34fad0c54c819c2eb3a42dc5d, type: 3}
       propertyPath: m_LocalPosition.z
       value: 349.45215
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135023456114735053, guid: 61ebc9d34fad0c54c819c2eb3a42dc5d, type: 3}
+      propertyPath: m_Follow
+      value: 
+      objectReference: {fileID: 658404417}
+    - target: {fileID: 6135023456114735053, guid: 61ebc9d34fad0c54c819c2eb3a42dc5d, type: 3}
+      propertyPath: m_Lens.FieldOfView
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8043185498094421980, guid: 61ebc9d34fad0c54c819c2eb3a42dc5d, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8043185498094421980, guid: 61ebc9d34fad0c54c819c2eb3a42dc5d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 348.85214
       objectReference: {fileID: 0}
     - target: {fileID: 8986882881366177466, guid: 61ebc9d34fad0c54c819c2eb3a42dc5d, type: 3}
       propertyPath: m_Follow
@@ -18155,10 +18187,6 @@ PrefabInstance:
     - target: {fileID: 3747800408118604400, guid: de812ff10c44449229014329e9747de0, type: 3}
       propertyPath: m_Name
       value: GrassCutterBooster
-      objectReference: {fileID: 0}
-    - target: {fileID: 3747800408118604402, guid: de812ff10c44449229014329e9747de0, type: 3}
-      propertyPath: _increase
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3747800408118604402, guid: de812ff10c44449229014329e9747de0, type: 3}
       propertyPath: _grassBending
@@ -18951,6 +18979,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8563928933147473640, guid: e963d304404704bf5bf43b7be597670c, type: 3}
+      propertyPath: _camera
+      value: 
+      objectReference: {fileID: 2058922605}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e963d304404704bf5bf43b7be597670c, type: 3}
 --- !u!1001 &8631584989453641495

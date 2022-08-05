@@ -4,6 +4,7 @@ using UnityEngine;
 public class SpeedBooster : MonoBehaviour
 {
     [SerializeField] private Animator _animator;
+    [SerializeField] private CameraBlend _camera;
 
     private const string _interaction = "Interaction";
 
@@ -12,6 +13,7 @@ public class SpeedBooster : MonoBehaviour
         if(other.TryGetComponent(out PlayerMovement playerMovement))
         {
             StartCoroutine(Interact());
+            StartCoroutine(RunningEffect());
             playerMovement.ChangeSpeed(2, 10);
         }
     }
@@ -21,5 +23,12 @@ public class SpeedBooster : MonoBehaviour
         _animator.SetTrigger(_interaction);
         yield return new WaitForSeconds(1);
         gameObject.SetActive(false);
+    }
+
+    private IEnumerator RunningEffect()
+    {
+        _camera.RunningCamera();
+        yield return new WaitForSeconds(10);
+        _camera.PlayerFollow();
     }
 }
