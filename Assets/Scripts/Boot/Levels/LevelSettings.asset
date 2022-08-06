@@ -13,23 +13,9 @@ MonoBehaviour:
   m_Name: LevelSettings
   m_EditorClassIdentifier: 
   _levels:
+  - sceneAsset: {fileID: 102900000, guid: 688f0077f05a4489fb5dc088f9891697, type: 3}
+    scenePath: Assets/Scenes/TrainigLevel.unity
   - sceneAsset: {fileID: 102900000, guid: ce599091089fddc4dba696dcd3b0a587, type: 3}
     scenePath: Assets/Scenes/Level2.unity
   - sceneAsset: {fileID: 102900000, guid: f256eb6430e0db545bc4b73b66cb3362, type: 3}
     scenePath: Assets/Scenes/Level1.unity
-  - sceneAsset: {fileID: 0}
-    scenePath: 
-  - sceneAsset: {fileID: 0}
-    scenePath: 
-  - sceneAsset: {fileID: 0}
-    scenePath: 
-  - sceneAsset: {fileID: 0}
-    scenePath: 
-  - sceneAsset: {fileID: 0}
-    scenePath: 
-  - sceneAsset: {fileID: 0}
-    scenePath: 
-  - sceneAsset: {fileID: 0}
-    scenePath: 
-  - sceneAsset: {fileID: 0}
-    scenePath: 
