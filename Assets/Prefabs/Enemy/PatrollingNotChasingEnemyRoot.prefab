@@ -91,6 +91,14 @@ PrefabInstance:
       propertyPath: _transitions.Array.data[0]
       value: 
       objectReference: {fileID: 8146763011445113481}
+    - target: {fileID: 7078592029668557141, guid: 36324c335dacc714aa8b54d03e4c6840, type: 3}
+      propertyPath: _pairs.Array.data[0].<EyeMaterial>k__BackingField
+      value: 
+      objectReference: {fileID: 2100000, guid: 96f086d2fe0ab4640aac08df8e1470ff, type: 2}
+    - target: {fileID: 7078592029668557141, guid: 36324c335dacc714aa8b54d03e4c6840, type: 3}
+      propertyPath: _pairs.Array.data[0].<GlowMaterial>k__BackingField
+      value: 
+      objectReference: {fileID: 2100000, guid: e13a0b27c76539141ad6faa389a78b99, type: 2}
     - target: {fileID: 8423707327436194645, guid: 36324c335dacc714aa8b54d03e4c6840, type: 3}
       propertyPath: _transitions.Array.size
       value: 0

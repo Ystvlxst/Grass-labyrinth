@@ -1,17 +1,27 @@
 using System.Collections;
 using UnityEngine;
 
+[RequireComponent(typeof(Collider))]
 public class SpeedBooster : MonoBehaviour
 {
-    [SerializeField] private Animator _animator;
-
     private const string _interaction = "Interaction";
+    
+    [SerializeField] private Animator _animator;
+    [SerializeField] private CameraBlend _camera;
+
+    private Collider _collider;
+
+    private void Start()
+    {
+        _collider = GetComponent<Collider>();
+    }
 
     private void OnTriggerEnter(Collider other)
     {
         if(other.TryGetComponent(out PlayerMovement playerMovement))
         {
             StartCoroutine(Interact());
+            StartCoroutine(RunningEffect());
             playerMovement.ChangeSpeed(2, 10);
         }
     }
@@ -20,6 +30,13 @@ public class SpeedBooster : MonoBehaviour
     {
         _animator.SetTrigger(_interaction);
         yield return new WaitForSeconds(1);
-        gameObject.SetActive(false);
+        _collider.enabled = false;
+    }
+
+    private IEnumerator RunningEffect()
+    {
+        _camera.RunningCamera();
+        yield return new WaitForSeconds(10);
+        _camera.PlayerFollow();
     }
 }

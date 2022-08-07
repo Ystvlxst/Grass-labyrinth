@@ -224,7 +224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d7cb47f60b394bf084e3c37129de154, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _grassBending: {fileID: 0}
+  _increase: 1.8
   _animator: {fileID: 3747800408118604365}
 --- !u!1001 &3747800408842215407
 PrefabInstance:
