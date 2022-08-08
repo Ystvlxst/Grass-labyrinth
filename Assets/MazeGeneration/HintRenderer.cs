@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class HintRenderer : MonoBehaviour
 {
+#if UNITY_EDITOR
     public MazeSpawner MazeSpawner;
 
     private LineRenderer componentLineRenderer;
@@ -55,4 +56,5 @@ public class HintRenderer : MonoBehaviour
         componentLineRenderer.positionCount = positions.Count;
         componentLineRenderer.SetPositions(positions.ToArray());
     }
+#endif
 }
