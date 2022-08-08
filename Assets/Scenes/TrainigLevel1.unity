@@ -255,6 +255,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 445700693165398808, guid: 9aa1312998f77e043ace8038826e03bb, type: 3}
   m_PrefabInstance: {fileID: 1129368}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1129372 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1165919804856103614, guid: 9aa1312998f77e043ace8038826e03bb, type: 3}
+  m_PrefabInstance: {fileID: 1129368}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8edde7bb6a6015345bde353eed18275b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3241418
 GameObject:
   m_ObjectHideFlags: 0
@@ -14750,6 +14761,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 715353420}
     m_Modifications:
+    - target: {fileID: 2303860044882355279, guid: 7e3e61bd045ef427c8b755b77608e3ab, type: 3}
+      propertyPath: _findKeyEffectAllStars
+      value: 
+      objectReference: {fileID: 136344214}
     - target: {fileID: 5303176692358143996, guid: 7e3e61bd045ef427c8b755b77608e3ab, type: 3}
       propertyPath: m_Name
       value: FindKeyEffect
@@ -15423,7 +15438,7 @@ PrefabInstance:
     - target: {fileID: 7921545780108927929, guid: 3b64563ae6d594e5c8976e6377833b00, type: 3}
       propertyPath: _portableObject
       value: 
-      objectReference: {fileID: 1129371}
+      objectReference: {fileID: 1129372}
     - target: {fileID: 7921545780108927930, guid: 3b64563ae6d594e5c8976e6377833b00, type: 3}
       propertyPath: m_RootOrder
       value: 2
