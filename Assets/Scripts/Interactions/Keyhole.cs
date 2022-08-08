@@ -6,6 +6,8 @@ public class Keyhole : MonoBehaviour
 {
     [SerializeField] private GameObject _playerKey;
     [SerializeField] private Animator _doorAnimator;
+    [SerializeField] private ParticleSystem _keyholeOpenEffect;
+    [SerializeField] private ParticleSystem _openDoorEffect;
 
     private const string _openDoor = "OpenDoor";
 
@@ -16,6 +18,8 @@ public class Keyhole : MonoBehaviour
             if(_playerKey.gameObject.activeSelf == true)
             {
                 _playerKey.gameObject.SetActive(false);
+                _keyholeOpenEffect.Play();
+                _openDoorEffect.Play();
                 _doorAnimator.SetTrigger(_openDoor);
             }
         }

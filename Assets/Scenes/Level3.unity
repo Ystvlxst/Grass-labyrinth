@@ -3355,6 +3355,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cell 3D
       objectReference: {fileID: 0}
+    - target: {fileID: 6253128884430347692, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
 --- !u!4 &267265275 stripped
@@ -5082,6 +5086,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cell 3D
       objectReference: {fileID: 0}
+    - target: {fileID: 6253128884430347692, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
 --- !u!4 &425587567 stripped
@@ -5586,6 +5594,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6218303777853080587, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6253128884430347692, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
       propertyPath: m_Name
       value: Cell 3D
@@ -6010,6 +6022,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cell 3D
       objectReference: {fileID: 0}
+    - target: {fileID: 6253128884430347692, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
 --- !u!4 &525451333 stripped
@@ -6205,6 +6221,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5170016548011200387, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218303777853080587, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6253128884430347692, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
@@ -9504,7 +9524,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5170016548011200387, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12.4
+      value: 24.72
       objectReference: {fileID: 0}
     - target: {fileID: 5170016548011200387, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9594,6 +9614,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerKey: {fileID: 1129371}
   _doorAnimator: {fileID: 1583149068}
+  _keyholeOpenEffect: {fileID: 0}
+  _openDoorEffect: {fileID: 0}
 --- !u!65 &991431824
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11424,6 +11446,10 @@ PrefabInstance:
     - target: {fileID: 6253128884430347692, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
       propertyPath: m_Name
       value: Cell 3D
+      objectReference: {fileID: 0}
+    - target: {fileID: 6253128884430347692, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
@@ -13523,6 +13549,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cell 3D
       objectReference: {fileID: 0}
+    - target: {fileID: 6253128884430347692, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
 --- !u!4 &1282494861 stripped
@@ -14221,6 +14251,10 @@ PrefabInstance:
     - target: {fileID: 6253128884430347692, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
       propertyPath: m_Name
       value: Cell 3D
+      objectReference: {fileID: 0}
+    - target: {fileID: 6253128884430347692, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
@@ -15024,6 +15058,10 @@ PrefabInstance:
     - target: {fileID: 6253128884430347692, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
       propertyPath: m_Name
       value: Cell 3D
+      objectReference: {fileID: 0}
+    - target: {fileID: 6253128884430347692, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
@@ -16291,19 +16329,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1965290941, guid: de812ff10c44449229014329e9747de0, type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 6e-44
+      value: 1.8019267e+31
       objectReference: {fileID: 0}
     - target: {fileID: 1965290941, guid: de812ff10c44449229014329e9747de0, type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 0
+      value: 1.577907e-19
       objectReference: {fileID: 0}
     - target: {fileID: 1965290941, guid: de812ff10c44449229014329e9747de0, type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 1.53e-43
+      value: 3.0262028e+29
       objectReference: {fileID: 0}
     - target: {fileID: 1965290941, guid: de812ff10c44449229014329e9747de0, type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 7.9723e-41
+      value: 1.5936923e-10
       objectReference: {fileID: 0}
     - target: {fileID: 1005445266171461379, guid: de812ff10c44449229014329e9747de0, type: 3}
       propertyPath: m_RootOrder
@@ -16343,7 +16381,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3747800408118604403, guid: de812ff10c44449229014329e9747de0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -29.59
+      value: -43.6
       objectReference: {fileID: 0}
     - target: {fileID: 3747800408118604403, guid: de812ff10c44449229014329e9747de0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -16351,7 +16389,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3747800408118604403, guid: de812ff10c44449229014329e9747de0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -19.48
+      value: -31.8
       objectReference: {fileID: 0}
     - target: {fileID: 3747800408118604403, guid: de812ff10c44449229014329e9747de0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -17315,6 +17353,10 @@ PrefabInstance:
     - target: {fileID: 6253128884430347692, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
       propertyPath: m_Name
       value: Cell 3D
+      objectReference: {fileID: 0}
+    - target: {fileID: 6253128884430347692, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
@@ -18516,6 +18558,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cell 3D
       objectReference: {fileID: 0}
+    - target: {fileID: 6253128884430347692, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
 --- !u!4 &1739285950 stripped
@@ -19541,6 +19587,10 @@ PrefabInstance:
     - target: {fileID: 6253128884430347692, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
       propertyPath: m_Name
       value: Cell 3D
+      objectReference: {fileID: 0}
+    - target: {fileID: 6253128884430347692, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
@@ -21275,6 +21325,10 @@ PrefabInstance:
     - target: {fileID: 6253128884430347692, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
       propertyPath: m_Name
       value: Cell 3D
+      objectReference: {fileID: 0}
+    - target: {fileID: 6253128884430347692, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
