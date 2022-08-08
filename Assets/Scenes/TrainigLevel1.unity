@@ -14813,6 +14813,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 715353420}
     m_Modifications:
+    - target: {fileID: 2303860044882355279, guid: 7e3e61bd045ef427c8b755b77608e3ab, type: 3}
+      propertyPath: _findKeyEffectAllStars
+      value: 
+      objectReference: {fileID: 136344214}
     - target: {fileID: 5303176692358143996, guid: 7e3e61bd045ef427c8b755b77608e3ab, type: 3}
       propertyPath: m_Name
       value: FindKeyEffect
