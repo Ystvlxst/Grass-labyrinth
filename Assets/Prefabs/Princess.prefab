@@ -158,6 +158,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Princess
       objectReference: {fileID: 0}
+    - target: {fileID: 2305655144600635124, guid: 1e11576c0d4ed4fafa306ad077f2004b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e11576c0d4ed4fafa306ad077f2004b, type: 3}
 --- !u!4 &2358077638910053154 stripped
@@ -177,6 +181,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff7838aa44d3949e4b3a0bb44cad9fb8, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ff7838aa44d3949e4b3a0bb44cad9fb8, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ff7838aa44d3949e4b3a0bb44cad9fb8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ff7838aa44d3949e4b3a0bb44cad9fb8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -190,11 +206,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff7838aa44d3949e4b3a0bb44cad9fb8, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff7838aa44d3949e4b3a0bb44cad9fb8, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff7838aa44d3949e4b3a0bb44cad9fb8, type: 3}
       propertyPath: m_LocalRotation.y
@@ -206,7 +222,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff7838aa44d3949e4b3a0bb44cad9fb8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff7838aa44d3949e4b3a0bb44cad9fb8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -220,6 +236,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Princess@Crying-2
       objectReference: {fileID: 0}
+    - target: {fileID: 2183286548923438636, guid: ff7838aa44d3949e4b3a0bb44cad9fb8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8832f8b90350c4c989ffafedefde2888, type: 2}
+    - target: {fileID: 2183286548923438636, guid: ff7838aa44d3949e4b3a0bb44cad9fb8, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9af6b9c05b77248a7b09abd22afa4f45, type: 2}
+    - target: {fileID: 2183286548923438636, guid: ff7838aa44d3949e4b3a0bb44cad9fb8, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: e1b65bff270a844bca7046cdb8603290, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff7838aa44d3949e4b3a0bb44cad9fb8, type: 3}
 --- !u!1 &4641640448586813645 stripped
