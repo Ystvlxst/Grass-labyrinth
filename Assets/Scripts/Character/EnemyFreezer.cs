@@ -17,7 +17,10 @@ public class EnemyFreezer : MonoBehaviour
         while (true)
         {
             if (_fieldOfVision.TryFindVisibleTarget(out FreezeTransition freezeTransition))
-                freezeTransition.Transit();
+            {
+                if(Vector3.Dot(freezeTransition.transform.forward, transform.forward) < 0)
+                    freezeTransition.Transit();
+            }
             
             yield return new WaitForSeconds(_delayBetweenFreeze);
         }
