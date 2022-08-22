@@ -15,7 +15,7 @@ public class FindKeyEffect : MonoBehaviour
         StartCoroutine(Disable());
     }
 
-    public void FindAllStars()
+    public void FindKey()
     {
         _findKeyEffectAllStars.Play();
     }

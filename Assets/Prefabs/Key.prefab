@@ -241,6 +241,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FindKeyEffect
       objectReference: {fileID: 0}
+    - target: {fileID: 5303176692358143996, guid: 7e3e61bd045ef427c8b755b77608e3ab, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5303176692358363292, guid: 7e3e61bd045ef427c8b755b77608e3ab, type: 3}
       propertyPath: m_RootOrder
       value: 1

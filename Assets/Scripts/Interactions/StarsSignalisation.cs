@@ -10,14 +10,6 @@ public class StarsSignalisation : MonoBehaviour
 
     public void TookKey()
     {
-        if (_starCounter.CurrentStarsCount != _starCounter.RequireStarsCount)
-        {
-            _enemyContainer.Signal();
-            _findKeyEffect.FindNotAllStars();
-        }
-        else
-        {
-            _findKeyEffect.FindAllStars();
-        }
+        _findKeyEffect.FindKey();
     }
 }

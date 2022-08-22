@@ -3,6 +3,7 @@ using UnityEngine;
 public class Princess : MonoBehaviour
 {
     [SerializeField] private Animator _animator;
+    [SerializeField] StarCounter _flowerCounter;
 
     private readonly  string _dance = "Dance";
 
@@ -11,7 +12,12 @@ public class Princess : MonoBehaviour
         if(other.TryGetComponent(out Player player))
         {
             player.Win();
-            _animator.SetTrigger(_dance);
+            Reaction(_flowerCounter.CurrentStarsCount.ToString());
         }
+    }
+
+    private void Reaction(string flowersCount)
+    {
+        _animator.SetTrigger(flowersCount);
     }
 }

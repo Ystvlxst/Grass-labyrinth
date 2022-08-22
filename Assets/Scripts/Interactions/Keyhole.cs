@@ -21,6 +21,7 @@ public class Keyhole : MonoBehaviour
                 _keyholeOpenEffect.Play();
                 _openDoorEffect.Play();
                 _doorAnimator.SetTrigger(_openDoor);
+                gameObject.SetActive(false);
             }
         }
     }
