@@ -12,11 +12,11 @@ namespace Source.EnemyView
         public float ViewRadius => _viewRadius;
         public float ViewAngle => _viewAngle;
         public LayerMask ObstacleMask => _obstacleMask;
-        
-        public bool TryFindVisibleTarget<TTarget>(out TTarget foundTarget) where TTarget : MonoBehaviour
+
+        public bool TryFindVisibleTarget<TTarget>(out TTarget foundedTarget) where TTarget : MonoBehaviour
         {
             Collider[] targetsInViewRadius = Physics.OverlapSphere(transform.position, ViewRadius, _targetMask);
-            foundTarget = null;
+            foundedTarget = null;
 
             foreach (var targetCollider in targetsInViewRadius)
             {
@@ -32,13 +32,12 @@ namespace Source.EnemyView
                     {
                         if (target.TryGetComponent(out TTarget component))
                         {
-                            foundTarget = component;
+                            foundedTarget = component;
                             return true;
                         }
                     }
                 }
             }
-
             return false;
         }
     }
