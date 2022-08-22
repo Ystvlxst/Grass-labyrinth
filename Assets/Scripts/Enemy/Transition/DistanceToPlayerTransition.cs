@@ -1,14 +1,13 @@
 using UnityEngine;
 using UnityEngine.AI;
+using Source.EnemyView;
 
 [RequireComponent(typeof(NavMeshAgent))]
 public class DistanceToPlayerTransition : Transition
 {
     [SerializeField] private Enemy _enemy;
-    [SerializeField] private float _distance;
-    [SerializeField] private bool _less = true;
+    [SerializeField] private FieldOfVision _fieldOfVision;
     
-    private Transform _player => _enemy.Player.transform;
     private NavMeshAgent _agent;
 
     private void Awake()
@@ -23,6 +22,6 @@ public class DistanceToPlayerTransition : Transition
 
     private bool CheckDistance()
     {
-        return !(Vector3.Distance(_agent.transform.position, _player.position) <= _distance ^ _less);
+        return _fieldOfVision.TryFindVisibleTarget(out Player player);
     }
 }
