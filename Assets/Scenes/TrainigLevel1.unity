@@ -15530,7 +15530,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1688915612931194765, guid: 49faaea0f811641149456823ee817434, type: 3}
       propertyPath: _transitions.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1688915612931194765, guid: 49faaea0f811641149456823ee817434, type: 3}
       propertyPath: _transitions.Array.data[3]
