@@ -163,6 +163,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 93.401
       objectReference: {fileID: 0}
+    - target: {fileID: 7536577812424104645, guid: 0c4900cbf5dd07943aca195c65486621, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7891003704555204809, guid: 0c4900cbf5dd07943aca195c65486621, type: 3}
       propertyPath: m_Name
       value: Star_Glow
