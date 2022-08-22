@@ -16,7 +16,7 @@ MonoBehaviour:
   clientTokens:
   - 36f36003a7f0cf3b8e5847508f1a1a6e
   appIds:
-  - 594923402029159
+  - 1118625725670422
   appLabels:
   - Grass Labyrinth
   cookie: 1
@@ -24,7 +24,7 @@ MonoBehaviour:
   status: 1
   xfbml: 0
   frictionlessRequests: 1
-  androidKeystorePath: 
+  androidKeystorePath: /Applications/Unity/Hub/Editor/2020.3.22f1/PlaybackEngines/AndroidPlayer/SDK
   iosURLSuffix: 
   appLinkSchemes:
   - list: []
