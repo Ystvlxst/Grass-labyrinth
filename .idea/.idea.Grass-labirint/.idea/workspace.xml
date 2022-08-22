@@ -3,7 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="d0c1f03b-3e6c-4256-80f7-90bf767f352e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Grass-labirint/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Grass-labirint/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/EnemyFreezer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character/EnemyFreezer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Epic Toon FX/Upgrade/ETFX 2019.2.3f1 LWRP Upgrade.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Epic Toon FX/Upgrade/ETFX 2019.3 URP Fix.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Epic Toon FX/Upgrade/ETFX Standard Materials.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/ItemIcons/128/128.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/ItemIcons/256/256.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/ItemIcons/32/32.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/ItemIcons/512/512.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/ItemIcons/64/64.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/ItemIcons/backup/backup.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/128/128.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/256/256.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/32/32.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/512/512.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/64/64.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/backup.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/RuneIcons/128/128.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/RuneIcons/256/256.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/RuneIcons/512/512.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/RuneIcons/64/64.unitypackage.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +61,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.7.0/Runtime/Passes/ScriptableRenderPass.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../GrassCutter/Assets/Scripts/Character/PlayerAccuracyView.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Transition/FreezeTransition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Transition/PatrolingTransition.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2Ca6b0HVa6HuTof3bnvczUDSWKJ" />
   <component name="ProjectViewState">
