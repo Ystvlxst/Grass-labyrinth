@@ -227,6 +227,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4288393192808708508, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
+      propertyPath: _distance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4288393192808708508, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
       propertyPath: _fieldOfVision
       value: 
       objectReference: {fileID: 7772033930716167620}
@@ -237,7 +241,7 @@ PrefabInstance:
     - target: {fileID: 4766066982816667294, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
       propertyPath: _pairs.Array.data[3].<State>k__BackingField
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 3628016632124022393}
     - target: {fileID: 4766066982816667294, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
       propertyPath: _pairs.Array.data[3].<EyeMaterial>k__BackingField
       value: 
@@ -276,6 +280,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1344196648681401316, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
   m_PrefabInstance: {fileID: 7396605556108659431}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8359118696889016578 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1344196648681401317, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
+  m_PrefabInstance: {fileID: 7396605556108659431}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8359118696889016580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e574b68eb4a941bb90758e7bcc828e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1688915612931194765 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8202812341660054890, guid: 3b4c1427d915d40eebc29cf0373f18cc, type: 3}
@@ -320,6 +335,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25437e90a7f844518e3b719ff8a5802d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1971258029622333748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8359118696889016580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd8c6f721d364e27b03a3be8a060d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _targetState: {fileID: 1688915612931194765}
+  _enemy: {fileID: 8359118696889016578}
+  _distance: 10
 --- !u!114 &4947846926188746246
 MonoBehaviour:
   m_ObjectHideFlags: 0

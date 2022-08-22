@@ -6,8 +6,11 @@ using Source.EnemyView;
 public class DistanceToPlayerTransition : Transition
 {
     [SerializeField] private Enemy _enemy;
+    [SerializeField] private float _distance;
+    [SerializeField] private bool _less = true;
     [SerializeField] private FieldOfVision _fieldOfVision;
     
+    private Transform _player => _enemy.Player.transform;
     private NavMeshAgent _agent;
 
     private void Awake()

@@ -44,7 +44,7 @@ public class PatrollingState : State
         _agent.speed = speed;
     }
 
-    private void CheckNextGoal()
+    public void CheckNextGoal()
     {
         if (_agent.remainingDistance < _distanceToChangeGoal)
         {

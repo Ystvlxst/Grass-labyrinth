@@ -13360,15 +13360,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1918046996}
   m_Mesh: {fileID: 3523453769480938493, guid: 13703bac5457a394fae8cfcbe2663f22, type: 3}
---- !u!114 &1918283263 stripped
+--- !u!114 &1918283258 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3628016632124022393, guid: 49faaea0f811641149456823ee817434, type: 3}
+  m_CorrespondingSourceObject: {fileID: 1971258029622333748, guid: 49faaea0f811641149456823ee817434, type: 3}
+  m_PrefabInstance: {fileID: 8359118696715806319}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd8c6f721d364e27b03a3be8a060d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1918283264 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6711888962020537211, guid: 49faaea0f811641149456823ee817434, type: 3}
   m_PrefabInstance: {fileID: 8359118696715806319}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e0143b9ae8642b0abcd85830eebabcf, type: 3}
+  m_Script: {fileID: 11500000, guid: f7f29038f1d846b78ed6d10cbed7e868, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1953398889 stripped
@@ -15517,14 +15528,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2069199292}
     m_Modifications:
-    - target: {fileID: 2630802825584106617, guid: 49faaea0f811641149456823ee817434, type: 3}
-      propertyPath: _pairs.Array.data[3].<State>k__BackingField
+    - target: {fileID: 1688915612931194765, guid: 49faaea0f811641149456823ee817434, type: 3}
+      propertyPath: _transitions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1688915612931194765, guid: 49faaea0f811641149456823ee817434, type: 3}
+      propertyPath: _transitions.Array.data[3]
       value: 
-      objectReference: {fileID: 1918283263}
+      objectReference: {fileID: 1918283258}
     - target: {fileID: 5109807267423462789, guid: 49faaea0f811641149456823ee817434, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6945427272706749231, guid: 49faaea0f811641149456823ee817434, type: 3}
+      propertyPath: _transitions.Array.data[2]
+      value: 
+      objectReference: {fileID: 1918283264}
     - target: {fileID: 7299775049338934373, guid: 49faaea0f811641149456823ee817434, type: 3}
       propertyPath: m_LocalPosition.y
       value: 1.4
