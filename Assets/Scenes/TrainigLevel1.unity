@@ -15521,10 +15521,6 @@ PrefabInstance:
       propertyPath: _pairs.Array.data[3].<State>k__BackingField
       value: 
       objectReference: {fileID: 1918283263}
-    - target: {fileID: 3221530417801162403, guid: 49faaea0f811641149456823ee817434, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.5
-      objectReference: {fileID: 0}
     - target: {fileID: 5109807267423462789, guid: 49faaea0f811641149456823ee817434, type: 3}
       propertyPath: m_IsActive
       value: 1
