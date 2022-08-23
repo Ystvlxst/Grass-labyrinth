@@ -175,7 +175,7 @@ MonoBehaviour:
   _meshResolution: 0.15
   _edgeResolveIterations: 0
   _edgeDstThreshold: 0
-  _maskCutawayDst: 0.1
+  _maskCutawayDst: -4
 --- !u!114 &1167491164575655897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -438,7 +438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 933f27ed8a5cf43359d7caf0a5f5e732, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _viewRadius: 9
+  _viewRadius: 12
   _viewAngle: 90
   _targetMask:
     serializedVersion: 2
@@ -627,7 +627,6 @@ MonoBehaviour:
   _targetState: {fileID: 5545723573114248634}
   _notVisible: 0
   _fieldOfVision: {fileID: 4962000934746594749}
-  _timeDelay: 5
 --- !u!114 &5545723573114248634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -756,7 +755,6 @@ MonoBehaviour:
   _targetState: {fileID: 4000103566963201955}
   _notVisible: 1
   _fieldOfVision: {fileID: 4962000934746594749}
-  _timeDelay: 0
 --- !u!1 &8294453089540671253
 GameObject:
   m_ObjectHideFlags: 0
