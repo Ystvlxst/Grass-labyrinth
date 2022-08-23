@@ -8657,7 +8657,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1341166978}
   m_Layer: 0
-  m_Name: Stars
+  m_Name: Flowers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15373,6 +15373,10 @@ PrefabInstance:
     - target: {fileID: 5987429986041032045, guid: 6906fb52a7cc84e679425a5f18464180, type: 3}
       propertyPath: m_Name
       value: AppMetricaAnalytics
+      objectReference: {fileID: 0}
+    - target: {fileID: 5987429986041032045, guid: 6906fb52a7cc84e679425a5f18464180, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6906fb52a7cc84e679425a5f18464180, type: 3}
