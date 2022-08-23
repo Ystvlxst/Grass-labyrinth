@@ -631,7 +631,7 @@ MonoBehaviour:
   - {fileID: 1157481261434505785}
   _randomTransition: 0
   _path: {fileID: 8346814664234239339}
-  _distanceToChangeGoal: 2
+  _distanceToChangeGoal: 1
 --- !u!114 &1157481262802184544
 MonoBehaviour:
   m_ObjectHideFlags: 0

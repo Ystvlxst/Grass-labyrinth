@@ -5,8 +5,7 @@ public class Princess : MonoBehaviour
     [SerializeField] private Animator _animator;
     [SerializeField] StarCounter _flowerCounter;
     [SerializeField] ParticleSystem _confetti;
-
-    private readonly  string _dance = "Dance";
+    [SerializeField] ParticleSystem _hearts;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -21,5 +20,16 @@ public class Princess : MonoBehaviour
     {
         _animator.SetTrigger(flowersCount);
         _confetti.Play();
+        CheckCountFlowers();
+    }
+
+    private void CheckCountFlowers()
+    {
+        if (_flowerCounter.CurrentStarsCount == 3)
+        {
+            _hearts.Play();
+        }
+        else
+            return;
     }
 }

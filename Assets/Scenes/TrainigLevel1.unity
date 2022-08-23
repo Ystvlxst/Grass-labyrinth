@@ -15497,6 +15497,10 @@ PrefabInstance:
       propertyPath: _flowerCounter
       value: 
       objectReference: {fileID: 1265777950}
+    - target: {fileID: 8017876812956393816, guid: 86152d06fb91749d2b38a29c986ce44f, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86152d06fb91749d2b38a29c986ce44f, type: 3}
 --- !u!1001 &7921545780651395523
