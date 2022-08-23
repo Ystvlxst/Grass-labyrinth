@@ -26,4 +26,4 @@ public class PatrolingTransition : Transition
 
         NeedTransit = true;
     }
-}
+}   
