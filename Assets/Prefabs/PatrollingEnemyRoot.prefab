@@ -175,7 +175,7 @@ MonoBehaviour:
   _meshResolution: 0.15
   _edgeResolveIterations: 0
   _edgeDstThreshold: 0
-  _maskCutawayDst: -4
+  _maskCutawayDst: -5
 --- !u!114 &1167491164575655897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -438,8 +438,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 933f27ed8a5cf43359d7caf0a5f5e732, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _viewRadius: 12
-  _viewAngle: 90
+  _viewRadius: 15
+  _viewAngle: 60
   _targetMask:
     serializedVersion: 2
     m_Bits: 128
