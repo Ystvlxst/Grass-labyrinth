@@ -4,6 +4,7 @@ public class Princess : MonoBehaviour
 {
     [SerializeField] private Animator _animator;
     [SerializeField] StarCounter _flowerCounter;
+    [SerializeField] ParticleSystem _confetti;
 
     private readonly  string _dance = "Dance";
 
@@ -19,5 +20,6 @@ public class Princess : MonoBehaviour
     private void Reaction(string flowersCount)
     {
         _animator.SetTrigger(flowersCount);
+        _confetti.Play();
     }
 }

@@ -19021,6 +19021,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Princess
       objectReference: {fileID: 0}
+    - target: {fileID: 1698718632852297995, guid: 86152d06fb91749d2b38a29c986ce44f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.98
+      objectReference: {fileID: 0}
     - target: {fileID: 2031462428655430991, guid: 86152d06fb91749d2b38a29c986ce44f, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -19121,6 +19125,10 @@ PrefabInstance:
       propertyPath: _winCanvas
       value: 
       objectReference: {fileID: 524228989}
+    - target: {fileID: 6872352813273219731, guid: 86152d06fb91749d2b38a29c986ce44f, type: 3}
+      propertyPath: _flowerCounter
+      value: 
+      objectReference: {fileID: 998765144}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86152d06fb91749d2b38a29c986ce44f, type: 3}
 --- !u!1001 &7582537781531437032
