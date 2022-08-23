@@ -10,4 +10,4 @@ public class PatrolingTransition : Transition
         if (_fieldOfVision.TryFindVisibleTarget(out Player player) == false)
             NeedTransit = true;
     }
-}
+}   
