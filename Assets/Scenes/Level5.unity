@@ -1399,6 +1399,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cell 3D
       objectReference: {fileID: 0}
+    - target: {fileID: 6701368321143955121, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 258.89133
+      objectReference: {fileID: 0}
+    - target: {fileID: 6701368321143955121, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.6115
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
 --- !u!4 &107353158 stripped
@@ -1464,6 +1472,14 @@ PrefabInstance:
     - target: {fileID: 6253128884430347692, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
       propertyPath: m_Name
       value: Cell 3D
+      objectReference: {fileID: 0}
+    - target: {fileID: 6701368321143955121, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 267.647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6701368321143955121, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.5166
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
@@ -4385,6 +4401,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cell 3D
       objectReference: {fileID: 0}
+    - target: {fileID: 6701368321143955121, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 261.54288
+      objectReference: {fileID: 0}
+    - target: {fileID: 6701368321143955121, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.3609
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
 --- !u!4 &353166486 stripped
@@ -6154,6 +6178,14 @@ PrefabInstance:
     - target: {fileID: 6253128884430347692, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
       propertyPath: m_Name
       value: Cell 3D
+      objectReference: {fileID: 0}
+    - target: {fileID: 6701368321143955121, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 261.02002
+      objectReference: {fileID: 0}
+    - target: {fileID: 6701368321143955121, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.2959
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
@@ -10999,6 +11031,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6701368321143955121, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 259.1954
+      objectReference: {fileID: 0}
+    - target: {fileID: 6701368321143955121, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.342
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
 --- !u!4 &1046858540 stripped
@@ -13057,6 +13097,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cell 3D
       objectReference: {fileID: 0}
+    - target: {fileID: 6701368321143955121, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 256.12906
+      objectReference: {fileID: 0}
+    - target: {fileID: 6701368321143955121, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.548
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
 --- !u!4 &1188746918 stripped
@@ -13485,6 +13533,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cell 3D
       objectReference: {fileID: 0}
+    - target: {fileID: 6701368321143955121, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 259.1267
+      objectReference: {fileID: 0}
+    - target: {fileID: 6701368321143955121, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.6171
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
 --- !u!4 &1235924434 stripped
@@ -13837,6 +13893,14 @@ PrefabInstance:
     - target: {fileID: 6253128884430347692, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
       propertyPath: m_Name
       value: Cell 3D
+      objectReference: {fileID: 0}
+    - target: {fileID: 6701368321143955121, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 260.60144
+      objectReference: {fileID: 0}
+    - target: {fileID: 6701368321143955121, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.6511
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
@@ -19673,6 +19737,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cell 3D
       objectReference: {fileID: 0}
+    - target: {fileID: 6701368321143955121, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 260.38647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6701368321143955121, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.3118
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
 --- !u!4 &1812192403 stripped
@@ -21635,6 +21707,14 @@ PrefabInstance:
     - target: {fileID: 6253128884430347692, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
       propertyPath: m_Name
       value: Cell 3D
+      objectReference: {fileID: 0}
+    - target: {fileID: 6701368321143955121, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 254.65924
+      objectReference: {fileID: 0}
+    - target: {fileID: 6701368321143955121, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.5149
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c09c593366de8ce44b92111f3dfe4c85, type: 3}

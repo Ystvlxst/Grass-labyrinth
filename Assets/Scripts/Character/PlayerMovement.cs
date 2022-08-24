@@ -35,20 +35,15 @@ public class PlayerMovement : MonoBehaviour
         var shift = new Vector3(_joystick.Direction.x, 0, _joystick.Direction.y);
         _agent.SetDestination(transform.position + shift.normalized);
 
-        _agent.speed = _speed * _speedRate * shift.magnitude;
+        _agent.speed = _speed * _speedRate;
 
         if (shift.magnitude == 0)
         {
             _animator.SetFloat(Speed, 0);
         }
-        else if(shift.magnitude >= 0.1f && shift.magnitude < 0.8f)
+        else if(shift.magnitude >= 0.1f)
         {
-            _animator.SetFloat(Speed, 0.5f);
-            PositionUpdated?.Invoke();
-        }
-        else if(shift.magnitude >= 0.8f)
-        {
-            _animator.SetFloat(Speed, 1);
+            _animator.SetFloat(Speed, 1f);
             PositionUpdated?.Invoke();
         }
     }
