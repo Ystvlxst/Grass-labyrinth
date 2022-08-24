@@ -26,9 +26,7 @@ public class Princess : MonoBehaviour
     private void CheckCountFlowers()
     {
         if (_flowerCounter.CurrentStarsCount == 3)
-        {
             _hearts.Play();
-        }
         else
             return;
     }

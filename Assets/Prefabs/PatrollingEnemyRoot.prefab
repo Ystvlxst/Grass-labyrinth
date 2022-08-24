@@ -175,7 +175,7 @@ MonoBehaviour:
   _meshResolution: 0.15
   _edgeResolveIterations: 0
   _edgeDstThreshold: 0
-  _maskCutawayDst: -3
+  _maskCutawayDst: -2
 --- !u!114 &1167491164575655897
 MonoBehaviour:
   m_ObjectHideFlags: 0
