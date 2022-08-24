@@ -14273,9 +14273,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1157481262802184544, guid: 49faaea0f811641149456823ee817434, type: 3}
+      propertyPath: _delayTime
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2544332824072740507, guid: 49faaea0f811641149456823ee817434, type: 3}
       propertyPath: m_Name
       value: PatrollingEnemyRoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 5039673516630279300, guid: 49faaea0f811641149456823ee817434, type: 3}
+      propertyPath: _delayTime
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5580972132978275187, guid: 49faaea0f811641149456823ee817434, type: 3}
       propertyPath: m_LocalPosition.y

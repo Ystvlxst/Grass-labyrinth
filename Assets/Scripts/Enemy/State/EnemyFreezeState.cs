@@ -25,6 +25,12 @@ public class EnemyFreezeState : State
 
     private void OnDisable()
     {
+        StartCoroutine(FreezeDelay());
+    }
+
+    private IEnumerator FreezeDelay()
+    {
+        yield return new WaitForSeconds(2);
         _navMeshAgent.speed = _startSpeed;
     }
 }
