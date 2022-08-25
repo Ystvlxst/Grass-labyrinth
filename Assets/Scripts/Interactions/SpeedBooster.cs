@@ -31,6 +31,8 @@ public class SpeedBooster : MonoBehaviour
         _animator.SetTrigger(_interaction);
         yield return new WaitForSeconds(1);
         _collider.enabled = false;
+        yield return new WaitForSeconds(10.5f);
+        gameObject.SetActive(false);
     }
 
     private IEnumerator RunningEffect()

@@ -21,7 +21,7 @@ public class WinCanvas : CanvasWindow
         _animator.SetTrigger("Show");
     }
 
-    private void OnNextLevelButtonClicked()
+    public void OnNextLevelButtonClicked()
     {
         Singleton<LevelLoader>.Instance.LoadNextLevel();
     }

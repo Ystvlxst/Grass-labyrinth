@@ -14,6 +14,7 @@ public class LevelLoader : Singleton<LevelLoader>
     }
 
     public int LevelIndex => _savedLevel;
+    public string LevelIndexString => Random.Range(1, 9).ToString();
 
     public void LoadSavedLevel()
     {
@@ -23,6 +24,12 @@ public class LevelLoader : Singleton<LevelLoader>
     public void LoadNextLevel()
     {
         _savedLevel = (_savedLevel + 1) % _levelList.Levels.Count;
+
+        if(_savedLevel == 2)
+        {
+            LoadScene(LevelIndexString);
+        }
+
         LoadScene(_levelList.Levels[_savedLevel].ScenePath);
     }
 

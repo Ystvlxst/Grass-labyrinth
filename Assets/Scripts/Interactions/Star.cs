@@ -32,5 +32,6 @@ public class Star : MonoBehaviour
         _collider.enabled = false;
         yield return new WaitForSeconds(1);
         gameObject.SetActive(false);
+        _animator.gameObject.SetActive(false);
     }
 }
