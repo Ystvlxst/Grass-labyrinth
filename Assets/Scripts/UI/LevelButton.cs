@@ -1,12 +1,16 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Button))]
 public class LevelButton : MonoBehaviour
 {
-    [SerializeField] private string _levelName;
+    [SerializeField] private int _levelName;
     [SerializeField] private SceneReference _sceneReference;
+
     private Button _button;
+
+    public int SceneName => _levelName;
 
     private void OnEnable()
     {
@@ -22,6 +26,6 @@ public class LevelButton : MonoBehaviour
 
     private void OnButtonClicked()
     {
-
+        SceneManager.LoadScene(_levelName);
     }
 }
