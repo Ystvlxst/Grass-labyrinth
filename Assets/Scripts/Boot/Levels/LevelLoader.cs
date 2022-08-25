@@ -40,7 +40,7 @@ public class LevelLoader : Singleton<LevelLoader>
 
     public void LoadRandomLevel()
     {
-        LoadScene(_random.Next(2, _levelList.Levels.Count - 1).ToString());
+        LoadScene(_random.Next(2, _levelList.Levels.Count).ToString());
     }
 
     private void LoadScene(string sceneName)
