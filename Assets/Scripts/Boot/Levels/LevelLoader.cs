@@ -14,7 +14,6 @@ public class LevelLoader : Singleton<LevelLoader>
     }
 
     public int LevelIndex => _savedLevel;
-    public string LevelIndexString => Random.Range(1, 9).ToString();
 
     public void LoadSavedLevel()
     {
@@ -25,11 +24,6 @@ public class LevelLoader : Singleton<LevelLoader>
     {
         _savedLevel = (_savedLevel + 1) % _levelList.Levels.Count;
 
-        if(_savedLevel == 2)
-        {
-            LoadScene(LevelIndexString);
-        }
-
         LoadScene(_levelList.Levels[_savedLevel].ScenePath);
     }
 
@@ -38,7 +32,7 @@ public class LevelLoader : Singleton<LevelLoader>
         LoadScene(_levelList.Levels[_savedLevel].ScenePath);
     }
 
-    private void LoadScene(string sceneName)
+    public void LoadScene(string sceneName)
     {
         var loadingScreen = Instantiate(_loadingScreen);
         loadingScreen.LoadScene(sceneName, () => Destroy(loadingScreen.gameObject));
