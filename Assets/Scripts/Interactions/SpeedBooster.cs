@@ -8,6 +8,7 @@ public class SpeedBooster : MonoBehaviour
     
     [SerializeField] private Animator _animator;
     [SerializeField] private CameraBlend _camera;
+    [SerializeField] private GameObject _light;
 
     private Collider _collider;
 
@@ -31,8 +32,7 @@ public class SpeedBooster : MonoBehaviour
         _animator.SetTrigger(_interaction);
         yield return new WaitForSeconds(1);
         _collider.enabled = false;
-        yield return new WaitForSeconds(10.5f);
-        gameObject.SetActive(false);
+        _light.SetActive(false);
     }
 
     private IEnumerator RunningEffect()

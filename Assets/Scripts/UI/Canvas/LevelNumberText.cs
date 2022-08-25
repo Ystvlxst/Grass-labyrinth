@@ -21,6 +21,7 @@ public class LevelNumberText : MonoBehaviour
 
     private void OnLevelChanged()
     {
-        _levelNumber.text = "Level " + SceneManager.GetActiveScene().buildIndex.ToString();
+        int index = SceneManager.GetActiveScene().buildIndex;
+        _levelNumber.text = "Level " + index++.ToString();
     }
 }
