@@ -6,5 +6,8 @@ public class LevelCounter : MonoBehaviour
     [SerializeField] private GameObject _winPanel;
     [SerializeField] private GameObject _levelsPanel;
 
-
+    private void Start()
+    {
+        
+    }
 }

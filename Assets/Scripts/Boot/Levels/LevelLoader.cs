@@ -8,6 +8,9 @@ public class LevelLoader : Singleton<LevelLoader>
     [SerializeField] private LevelLoadingScreen _loadingScreen;
 
     private int _levelCounter;
+    private int _maxLevelCount = 9;
+
+    private System.Random _random = new System.Random();
 
     private int _savedLevel
     {
@@ -17,6 +20,7 @@ public class LevelLoader : Singleton<LevelLoader>
 
     public int LevelIndex => _savedLevel;
     public int LevelCounter => _levelCounter;
+    public int MaxLevelsCount => _maxLevelCount;
 
     public void LoadSavedLevel()
     {
@@ -36,7 +40,7 @@ public class LevelLoader : Singleton<LevelLoader>
 
     public void LoadRandomLevel()
     {
-        LoadScene(Random.Range(2, 9).ToString());
+        LoadScene(_random.Next(2, _levelList.Levels.Count - 1).ToString());
     }
 
     private void LoadScene(string sceneName)

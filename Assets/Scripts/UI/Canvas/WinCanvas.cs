@@ -23,6 +23,13 @@ public class WinCanvas : CanvasWindow
 
     public void OnNextLevelButtonClicked()
     {
-        Singleton<LevelLoader>.Instance.LoadRandomLevel();
+        if (Singleton<LevelLoader>.Instance.LevelCounter >= Singleton<LevelLoader>.Instance.MaxLevelsCount)
+        {
+            Singleton<LevelLoader>.Instance.LoadRandomLevel();
+        }
+        else
+        {
+            Singleton<LevelLoader>.Instance.LoadNextLevel();
+        }
     }
 }
