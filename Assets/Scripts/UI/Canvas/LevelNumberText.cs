@@ -1,6 +1,5 @@
 using TMPro;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class LevelNumberText : MonoBehaviour
 {
@@ -21,7 +20,8 @@ public class LevelNumberText : MonoBehaviour
 
     private void OnLevelChanged()
     {
-        int index = SceneManager.GetActiveScene().buildIndex;
-        _levelNumber.text = "Level " + index++.ToString();
+        int counter = Singleton<LevelLoader>.Instance.LevelCounter;
+        int index = 1 + counter;
+        _levelNumber.text = "Level " + index;
     }
 }
