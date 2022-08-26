@@ -1,6 +1,5 @@
 using UnityEngine;
 using System.Collections.Generic;
-using UnityEditor;
 
 public class LevelAnalytics : MonoBehaviour
 {
@@ -9,28 +8,9 @@ public class LevelAnalytics : MonoBehaviour
     [SerializeField] private Tutorial _tutorial;
 
     private Analytics _analytics;
+    private int _levelComplete;
     private int _levelNumber;
     private float _startTime;
-
-    private void Awake()
-    {
-        _analytics = Singleton<Analytics>.Instance;
-        _levelNumber = Singleton<LevelLoader>.Instance.LevelIndex + 1;
-    }
-
-#if UNITY_EDITOR
-    private void OnValidate()
-    {
-        bool dirty = _endLevelTrigger == null || _loseCanvas == null || _tutorial == null;
-
-        _endLevelTrigger ??= FindObjectOfType<EndLevelTrigger>();
-        _loseCanvas ??= FindObjectOfType<LoseCanvas>();
-        _tutorial ??= FindObjectOfType<Tutorial>();
-
-        if (dirty)
-            EditorUtility.SetDirty(gameObject);
-    }
-#endif
 
     private void OnEnable()
     {
@@ -38,6 +18,7 @@ public class LevelAnalytics : MonoBehaviour
         _endLevelTrigger.Won += OnLevelCompleted;
         _endLevelTrigger.Lost += OnLevelFailed;
         _loseCanvas.Restarted += OnReloading;
+        _analytics.EventSent += OnSentEvent;
     }
 
     private void OnDisable()
@@ -46,6 +27,14 @@ public class LevelAnalytics : MonoBehaviour
         _endLevelTrigger.Won -= OnLevelCompleted;
         _endLevelTrigger.Lost -= OnLevelFailed;
         _loseCanvas.Restarted -= OnReloading;
+        _analytics.EventSent -= OnSentEvent;
+    }
+
+    private void Awake()
+    {
+        _analytics = Singleton<Analytics>.Instance;
+        _levelNumber = Singleton<LevelLoader>.Instance.LevelIndex + 1;
+        _levelComplete = Singleton<LevelLoader>.Instance.LevelCounter + 1;
     }
 
     private void Start()
@@ -92,5 +81,14 @@ public class LevelAnalytics : MonoBehaviour
         };
 
         _analytics.FireEvent("level_restart", parameters);
+    }
+
+    private void OnSentEvent()
+    {
+        YandexAppMetricaUserProfile userProfile = new YandexAppMetricaUserProfile();
+        userProfile.Apply(YandexAppMetricaAttribute.CustomNumber("current_soft").WithValue(_levelComplete));
+
+        AppMetrica.Instance.SetUserProfileID(new DuckyID().Value());
+        AppMetrica.Instance.ReportUserProfile(userProfile);
     }
 }

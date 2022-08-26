@@ -5401,7 +5401,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4972989674806526292, guid: 49faaea0f811641149456823ee817434, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 31.5
+      value: 11.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49faaea0f811641149456823ee817434, type: 3}
@@ -17376,10 +17376,6 @@ PrefabInstance:
       value: GrassCutterBooster (1)
       objectReference: {fileID: 0}
     - target: {fileID: 3747800408118604402, guid: de812ff10c44449229014329e9747de0, type: 3}
-      propertyPath: _increase
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3747800408118604402, guid: de812ff10c44449229014329e9747de0, type: 3}
       propertyPath: _grassBending
       value: 
       objectReference: {fileID: 1844576912}
@@ -22902,10 +22898,6 @@ PrefabInstance:
     - target: {fileID: 3747800408118604400, guid: de812ff10c44449229014329e9747de0, type: 3}
       propertyPath: m_Name
       value: GrassCutterBooster
-      objectReference: {fileID: 0}
-    - target: {fileID: 3747800408118604402, guid: de812ff10c44449229014329e9747de0, type: 3}
-      propertyPath: _increase
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3747800408118604402, guid: de812ff10c44449229014329e9747de0, type: 3}
       propertyPath: _grassBending

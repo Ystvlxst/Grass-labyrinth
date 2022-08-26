@@ -7404,6 +7404,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 102583980}
     - target: {fileID: 5987429986041032034, guid: 6906fb52a7cc84e679425a5f18464180, type: 3}
+      propertyPath: _starCounter
+      value: 
+      objectReference: {fileID: 998765144}
+    - target: {fileID: 5987429986041032034, guid: 6906fb52a7cc84e679425a5f18464180, type: 3}
       propertyPath: _endLevelTrigger
       value: 
       objectReference: {fileID: 193339820}

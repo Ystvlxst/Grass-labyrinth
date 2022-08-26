@@ -53,7 +53,8 @@ public class LevelLoader : Singleton<LevelLoader>
 
     public void LoadRandomLevel()
     {
-        LoadScene(_random.Next(2, _levelList.Levels.Count).ToString());
+        int random = _random.Next(2, _maxLevelCount);
+        LoadScene(random.ToString());
         ChangeCounter();
     }
 

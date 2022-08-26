@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Analytics : Singleton<Analytics>
 {
@@ -8,6 +9,8 @@ public class Analytics : Singleton<Analytics>
     private const string SessionCountKey = "SessionCount";
 
     private AnalyticsPlayTimeLogger _timeLogger;
+
+    public event UnityAction EventSent;
 
     public TimeSpan AllPlayTime => _timeLogger.AllPlayTime;
 
@@ -26,10 +29,7 @@ public class Analytics : Singleton<Analytics>
     protected override void OnAwake()
     {
         _timeLogger = Singleton<AnalyticsPlayTimeLogger>.Instance;
-    }
 
-    private void Start()
-    {
         if (PlayerPrefs.HasKey(RegDayKey) == false)
         {
             DateTime regDay = DateTime.Today;
@@ -43,7 +43,6 @@ public class Analytics : Singleton<Analytics>
 
         _sessionCount += 1;
         SetBasicProperty(_sessionCount);
-        
         FireEvent("game_start", new Dictionary<string, object>() { { "count", _sessionCount } });
     }
 
@@ -59,16 +58,15 @@ public class Analytics : Singleton<Analytics>
 
     public void FireEvent(string eventName, Dictionary<string, object> eventProps = null)
     {
-        eventProps ??= new Dictionary<string, object>();
+        if (eventProps == null)
+            eventProps = new Dictionary<string, object>();
 
         eventProps.Add("total_playtime_min", AllPlayTime.Minutes);
         eventProps.Add("total_playtime_sec", AllPlayTime.Minutes * 60 + AllPlayTime.Seconds);
 
-#if UNITY_EDITOR
-        Debug.Log($"FireEvent: {eventName},\n{string.Join(Environment.NewLine ,eventProps)}");
-#endif
-
         AppMetrica.Instance.ReportEvent(eventName, eventProps);
+
+        EventSent?.Invoke();
     }
 
     public void ForceSendEventBuffer()

@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,6 +12,7 @@ public class EnemyEyesColorStates : MonoBehaviour
 
     private MeshRenderer _meshRenderer;
     private Material[] _defaultMaterials;
+    private Coroutine _coroutine;
 
     private void Awake()
     {
@@ -40,7 +42,11 @@ public class EnemyEyesColorStates : MonoBehaviour
     private void OnExitedState(State state)
     {
         state.Exited -= OnExitedState;
-        SetMaterials(_defaultMaterials[2], _defaultMaterials[1]);
+
+        if (_coroutine != null)
+            StopCoroutine(_coroutine);
+
+        _coroutine = StartCoroutine(ExitState());
     }
 
     private void SetMaterials(Material pairGlowMaterial, Material material)
@@ -49,6 +55,12 @@ public class EnemyEyesColorStates : MonoBehaviour
         materials[MaterialIndex] = material;
         materials[MaterialIndexGlow] = pairGlowMaterial;
         _meshRenderer.materials = materials;
+    }
+
+    private IEnumerator ExitState()
+    {
+        yield return new WaitForSeconds(2);
+        SetMaterials(_defaultMaterials[2], _defaultMaterials[1]);
     }
 }
 

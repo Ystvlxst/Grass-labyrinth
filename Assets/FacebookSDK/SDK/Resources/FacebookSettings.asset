@@ -24,7 +24,8 @@ MonoBehaviour:
   status: 1
   xfbml: 0
   frictionlessRequests: 1
-  androidKeystorePath: /Applications/Unity/Hub/Editor/2020.3.22f1/PlaybackEngines/AndroidPlayer/SDK
+  androidKeystorePath: "/Users/artemijgerzina/Documents/GitHub/\u041D\u043E\u0432\u0430\u044F
+    \u043F\u0430\u043F\u043A\u0430/Grass-labirint/Key/userKey.keystore"
   iosURLSuffix: 
   appLinkSchemes:
   - list: []
