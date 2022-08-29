@@ -42,11 +42,7 @@ public class EnemyEyesColorStates : MonoBehaviour
     private void OnExitedState(State state)
     {
         state.Exited -= OnExitedState;
-
-        if (_coroutine != null)
-            StopCoroutine(_coroutine);
-
-        _coroutine = StartCoroutine(ExitState());
+        SetMaterials(_defaultMaterials[2], _defaultMaterials[1]);
     }
 
     private void SetMaterials(Material pairGlowMaterial, Material material)
