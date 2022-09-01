@@ -9,23 +9,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -2115301841, guid: 6abda14e0211045ac9a37fef71208602, type: 3}
+  m_Script: {fileID: -2115301841, guid: c49f2b3ca212b47fc9cd8ce655177c89, type: 3}
   m_Name: FacebookSettings
   m_EditorClassIdentifier: 
   selectedAppIndex: 0
   clientTokens:
-  - 36f36003a7f0cf3b8e5847508f1a1a6e
+  - 
   appIds:
   - 1118625725670422
   appLabels:
-  - Grass Labyrinth
+  - GrassLabyrinth
   cookie: 1
-  logging: 1
+  logging: 0
   status: 1
   xfbml: 0
   frictionlessRequests: 1
-  androidKeystorePath: "/Users/artemijgerzina/Documents/GitHub/\u041D\u043E\u0432\u0430\u044F
-    \u043F\u0430\u043F\u043A\u0430/Grass-labirint/Key/userKey.keystore"
+  androidKeystorePath: 
   iosURLSuffix: 
   appLinkSchemes:
   - list: []
